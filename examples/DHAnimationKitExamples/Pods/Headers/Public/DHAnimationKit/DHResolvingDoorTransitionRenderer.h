@@ -1,0 +1,1 @@
+../../../../../../Classes/Source/Animations/Transitions/Resolving Door/DHResolvingDoorTransitionRenderer.h

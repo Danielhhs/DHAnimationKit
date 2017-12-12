@@ -1,0 +1,16 @@
+PODS:
+  - DHAnimationKit (1.0.0)
+
+DEPENDENCIES:
+  - DHAnimationKit (from `../..`)
+
+EXTERNAL SOURCES:
+  DHAnimationKit:
+    :path: ../..
+
+SPEC CHECKSUMS:
+  DHAnimationKit: 7a8667c25e375d057f955d55e532a06ec62c453a
+
+PODFILE CHECKSUM: 0da9fa5ef64c66ba8771d6cc7d2a12f976c0f1c0
+
+COCOAPODS: 1.2.1

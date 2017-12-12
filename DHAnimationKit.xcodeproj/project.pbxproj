@@ -1,0 +1,1842 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54F4A63E1FDFE1940010BDC8 /* DHAnimationKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F4A6341FDFE1940010BDC8 /* DHAnimationKit.framework */; };
+		54F4A76C1FDFE5450010BDC8 /* DHAnvilAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6521FDFE5450010BDC8 /* DHAnvilAnimationRenderer.h */; };
+		54F4A76D1FDFE5450010BDC8 /* DHAnvilAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6531FDFE5450010BDC8 /* DHAnvilAnimationRenderer.m */; };
+		54F4A76E1FDFE5450010BDC8 /* DHBlindsAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6551FDFE5450010BDC8 /* DHBlindsAnimationRenderer.h */; };
+		54F4A76F1FDFE5450010BDC8 /* DHBlindsAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6561FDFE5450010BDC8 /* DHBlindsAnimationRenderer.m */; };
+		54F4A7701FDFE5450010BDC8 /* DHBlowAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6581FDFE5450010BDC8 /* DHBlowAnimationRenderer.h */; };
+		54F4A7711FDFE5450010BDC8 /* DHBlowAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6591FDFE5450010BDC8 /* DHBlowAnimationRenderer.m */; };
+		54F4A7721FDFE5450010BDC8 /* DHBlowSceneMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A65A1FDFE5450010BDC8 /* DHBlowSceneMesh.h */; };
+		54F4A7731FDFE5450010BDC8 /* DHBlowSceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A65B1FDFE5450010BDC8 /* DHBlowSceneMesh.m */; };
+		54F4A7741FDFE5450010BDC8 /* DHBlurAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A65D1FDFE5450010BDC8 /* DHBlurAnimationRenderer.h */; };
+		54F4A7751FDFE5450010BDC8 /* DHBlurAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A65E1FDFE5450010BDC8 /* DHBlurAnimationRenderer.m */; };
+		54F4A7761FDFE5450010BDC8 /* DHCompressAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6601FDFE5450010BDC8 /* DHCompressAnimationRenderer.h */; };
+		54F4A7771FDFE5450010BDC8 /* DHCompressAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6611FDFE5450010BDC8 /* DHCompressAnimationRenderer.m */; };
+		54F4A7781FDFE5450010BDC8 /* DHConfettiAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6631FDFE5450010BDC8 /* DHConfettiAnimationRenderer.h */; };
+		54F4A7791FDFE5450010BDC8 /* DHConfettiAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6641FDFE5450010BDC8 /* DHConfettiAnimationRenderer.m */; };
+		54F4A77A1FDFE5450010BDC8 /* DHCrumbleAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6661FDFE5450010BDC8 /* DHCrumbleAnimationRenderer.h */; };
+		54F4A77B1FDFE5450010BDC8 /* DHCrumbleAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6671FDFE5450010BDC8 /* DHCrumbleAnimationRenderer.m */; };
+		54F4A77C1FDFE5450010BDC8 /* DHCrumbleMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6681FDFE5450010BDC8 /* DHCrumbleMesh.h */; };
+		54F4A77D1FDFE5450010BDC8 /* DHCrumbleMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6691FDFE5450010BDC8 /* DHCrumbleMesh.m */; };
+		54F4A77E1FDFE5450010BDC8 /* DHEdge.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A66A1FDFE5450010BDC8 /* DHEdge.h */; };
+		54F4A77F1FDFE5450010BDC8 /* DHEdge.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A66B1FDFE5450010BDC8 /* DHEdge.m */; };
+		54F4A7801FDFE5450010BDC8 /* DHIntersectPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A66C1FDFE5450010BDC8 /* DHIntersectPoint.h */; };
+		54F4A7811FDFE5450010BDC8 /* DHIntersectPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A66D1FDFE5450010BDC8 /* DHIntersectPoint.m */; };
+		54F4A7821FDFE5450010BDC8 /* DHLine.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A66E1FDFE5450010BDC8 /* DHLine.h */; };
+		54F4A7831FDFE5450010BDC8 /* DHLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A66F1FDFE5450010BDC8 /* DHLine.m */; };
+		54F4A7841FDFE5450010BDC8 /* DHPolygon.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6701FDFE5450010BDC8 /* DHPolygon.h */; };
+		54F4A7851FDFE5450010BDC8 /* DHPolygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6711FDFE5450010BDC8 /* DHPolygon.m */; };
+		54F4A7861FDFE5450010BDC8 /* DHDiffuseAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6731FDFE5450010BDC8 /* DHDiffuseAnimationRenderer.h */; };
+		54F4A7871FDFE5450010BDC8 /* DHDiffuseAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6741FDFE5450010BDC8 /* DHDiffuseAnimationRenderer.m */; };
+		54F4A7881FDFE5450010BDC8 /* DHDiffuseSceneMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6751FDFE5450010BDC8 /* DHDiffuseSceneMesh.h */; };
+		54F4A7891FDFE5450010BDC8 /* DHDiffuseSceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6761FDFE5450010BDC8 /* DHDiffuseSceneMesh.m */; };
+		54F4A78A1FDFE5450010BDC8 /* DHDissolveAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6781FDFE5450010BDC8 /* DHDissolveAnimationRenderer.h */; };
+		54F4A78B1FDFE5450010BDC8 /* DHDissolveAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6791FDFE5450010BDC8 /* DHDissolveAnimationRenderer.m */; };
+		54F4A78C1FDFE5450010BDC8 /* DHDropAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A67B1FDFE5450010BDC8 /* DHDropAnimationRenderer.h */; };
+		54F4A78D1FDFE5450010BDC8 /* DHDropAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A67C1FDFE5450010BDC8 /* DHDropAnimationRenderer.m */; };
+		54F4A78E1FDFE5450010BDC8 /* DHFaceExplosionAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A67E1FDFE5450010BDC8 /* DHFaceExplosionAnimationRenderer.h */; };
+		54F4A78F1FDFE5450010BDC8 /* DHFaceExplosionAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A67F1FDFE5450010BDC8 /* DHFaceExplosionAnimationRenderer.m */; };
+		54F4A7901FDFE5450010BDC8 /* DHFireworkAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6811FDFE5450010BDC8 /* DHFireworkAnimationRenderer.h */; };
+		54F4A7911FDFE5450010BDC8 /* DHFireworkAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6821FDFE5450010BDC8 /* DHFireworkAnimationRenderer.m */; };
+		54F4A7921FDFE5450010BDC8 /* DHFlameAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6841FDFE5450010BDC8 /* DHFlameAnimationRenderer.h */; };
+		54F4A7931FDFE5450010BDC8 /* DHFlameAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6851FDFE5450010BDC8 /* DHFlameAnimationRenderer.m */; };
+		54F4A7941FDFE5450010BDC8 /* DHFoldAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6871FDFE5450010BDC8 /* DHFoldAnimationRenderer.h */; };
+		54F4A7951FDFE5450010BDC8 /* DHFoldAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6881FDFE5450010BDC8 /* DHFoldAnimationRenderer.m */; };
+		54F4A7961FDFE5450010BDC8 /* DHFoldSceneMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6891FDFE5450010BDC8 /* DHFoldSceneMesh.h */; };
+		54F4A7971FDFE5450010BDC8 /* DHFoldSceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A68A1FDFE5450010BDC8 /* DHFoldSceneMesh.m */; };
+		54F4A7981FDFE5450010BDC8 /* DHPivotAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A68C1FDFE5450010BDC8 /* DHPivotAnimationRenderer.h */; };
+		54F4A7991FDFE5450010BDC8 /* DHPivotAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A68D1FDFE5450010BDC8 /* DHPivotAnimationRenderer.m */; };
+		54F4A79A1FDFE5450010BDC8 /* DHPointExplosionAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A68F1FDFE5450010BDC8 /* DHPointExplosionAnimationRenderer.h */; };
+		54F4A79B1FDFE5450010BDC8 /* DHPointExplosionAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6901FDFE5450010BDC8 /* DHPointExplosionAnimationRenderer.m */; };
+		54F4A79C1FDFE5450010BDC8 /* DHPopAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6921FDFE5450010BDC8 /* DHPopAnimationRenderer.h */; };
+		54F4A79D1FDFE5450010BDC8 /* DHPopAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6931FDFE5450010BDC8 /* DHPopAnimationRenderer.m */; };
+		54F4A79E1FDFE5450010BDC8 /* DHRotationAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6951FDFE5450010BDC8 /* DHRotationAnimationRenderer.h */; };
+		54F4A79F1FDFE5450010BDC8 /* DHRotationAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6961FDFE5450010BDC8 /* DHRotationAnimationRenderer.m */; };
+		54F4A7A01FDFE5450010BDC8 /* DHScaleAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6981FDFE5450010BDC8 /* DHScaleAnimationRenderer.h */; };
+		54F4A7A11FDFE5450010BDC8 /* DHScaleAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6991FDFE5450010BDC8 /* DHScaleAnimationRenderer.m */; };
+		54F4A7A21FDFE5450010BDC8 /* DHScaleBigAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A69B1FDFE5450010BDC8 /* DHScaleBigAnimationRenderer.h */; };
+		54F4A7A31FDFE5450010BDC8 /* DHScaleBigAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A69C1FDFE5450010BDC8 /* DHScaleBigAnimationRenderer.m */; };
+		54F4A7A41FDFE5450010BDC8 /* DHShimmerAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A69E1FDFE5450010BDC8 /* DHShimmerAnimationRenderer.h */; };
+		54F4A7A51FDFE5450010BDC8 /* DHShimmerAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A69F1FDFE5450010BDC8 /* DHShimmerAnimationRenderer.m */; };
+		54F4A7A61FDFE5450010BDC8 /* DHShimmerBackgroundMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6A01FDFE5450010BDC8 /* DHShimmerBackgroundMesh.h */; };
+		54F4A7A71FDFE5450010BDC8 /* DHShimmerBackgroundMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6A11FDFE5450010BDC8 /* DHShimmerBackgroundMesh.m */; };
+		54F4A7A81FDFE5450010BDC8 /* DHShredderAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6A31FDFE5450010BDC8 /* DHShredderAnimationRenderer.h */; };
+		54F4A7A91FDFE5450010BDC8 /* DHShredderAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6A41FDFE5450010BDC8 /* DHShredderAnimationRenderer.m */; };
+		54F4A7AA1FDFE5450010BDC8 /* DHShredderAnimationSceneMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6A51FDFE5450010BDC8 /* DHShredderAnimationSceneMesh.h */; };
+		54F4A7AB1FDFE5450010BDC8 /* DHShredderAnimationSceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6A61FDFE5450010BDC8 /* DHShredderAnimationSceneMesh.m */; };
+		54F4A7AC1FDFE5450010BDC8 /* DHShredderConfettiMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6A71FDFE5450010BDC8 /* DHShredderConfettiMesh.h */; };
+		54F4A7AD1FDFE5450010BDC8 /* DHShredderConfettiMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6A81FDFE5450010BDC8 /* DHShredderConfettiMesh.m */; };
+		54F4A7AE1FDFE5450010BDC8 /* DHShredderMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6A91FDFE5450010BDC8 /* DHShredderMesh.h */; };
+		54F4A7AF1FDFE5450010BDC8 /* DHShredderMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6AA1FDFE5450010BDC8 /* DHShredderMesh.m */; };
+		54F4A7B01FDFE5450010BDC8 /* DHSkidAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6AC1FDFE5450010BDC8 /* DHSkidAnimationRenderer.h */; };
+		54F4A7B11FDFE5450010BDC8 /* DHSkidAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6AD1FDFE5450010BDC8 /* DHSkidAnimationRenderer.m */; };
+		54F4A7B21FDFE5450010BDC8 /* DHSparkleAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6AF1FDFE5450010BDC8 /* DHSparkleAnimationRenderer.h */; };
+		54F4A7B31FDFE5450010BDC8 /* DHSparkleAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6B01FDFE5450010BDC8 /* DHSparkleAnimationRenderer.m */; };
+		54F4A7B41FDFE5450010BDC8 /* DHSpinAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6B21FDFE5450010BDC8 /* DHSpinAnimationRenderer.h */; };
+		54F4A7B51FDFE5450010BDC8 /* DHSpinAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6B31FDFE5450010BDC8 /* DHSpinAnimationRenderer.m */; };
+		54F4A7B61FDFE5450010BDC8 /* DHTwirlAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6B51FDFE5450010BDC8 /* DHTwirlAnimationRenderer.h */; };
+		54F4A7B71FDFE5450010BDC8 /* DHTwirlAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6B61FDFE5450010BDC8 /* DHTwirlAnimationRenderer.m */; };
+		54F4A7B81FDFE5450010BDC8 /* DHWipeAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6B81FDFE5450010BDC8 /* DHWipeAnimationRenderer.h */; };
+		54F4A7B91FDFE5450010BDC8 /* DHWipeAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6B91FDFE5450010BDC8 /* DHWipeAnimationRenderer.m */; };
+		54F4A7BA1FDFE5450010BDC8 /* DHCameraShakeEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6BC1FDFE5450010BDC8 /* DHCameraShakeEffect.h */; };
+		54F4A7BB1FDFE5450010BDC8 /* DHCameraShakeEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6BD1FDFE5450010BDC8 /* DHCameraShakeEffect.m */; };
+		54F4A7BC1FDFE5450010BDC8 /* DHDustEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6BF1FDFE5450010BDC8 /* DHDustEffect.h */; };
+		54F4A7BD1FDFE5450010BDC8 /* DHDustEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6C01FDFE5450010BDC8 /* DHDustEffect.m */; };
+		54F4A7BE1FDFE5450010BDC8 /* DHFaceExplosionEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6C21FDFE5450010BDC8 /* DHFaceExplosionEffect.h */; };
+		54F4A7BF1FDFE5450010BDC8 /* DHFaceExplosionEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6C31FDFE5450010BDC8 /* DHFaceExplosionEffect.m */; };
+		54F4A7C01FDFE5450010BDC8 /* DHFireworkEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6C51FDFE5450010BDC8 /* DHFireworkEffect.h */; };
+		54F4A7C11FDFE5450010BDC8 /* DHFireworkEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6C61FDFE5450010BDC8 /* DHFireworkEffect.m */; };
+		54F4A7C21FDFE5450010BDC8 /* DHFireworkSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6C71FDFE5450010BDC8 /* DHFireworkSettings.h */; };
+		54F4A7C31FDFE5450010BDC8 /* DHFireworkSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6C81FDFE5450010BDC8 /* DHFireworkSettings.m */; };
+		54F4A7C41FDFE5450010BDC8 /* DHFlameEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6CA1FDFE5450010BDC8 /* DHFlameEffect.h */; };
+		54F4A7C51FDFE5450010BDC8 /* DHFlameEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6CB1FDFE5450010BDC8 /* DHFlameEffect.m */; };
+		54F4A7C61FDFE5450010BDC8 /* DHPointExplosionEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6CD1FDFE5450010BDC8 /* DHPointExplosionEffect.h */; };
+		54F4A7C71FDFE5450010BDC8 /* DHPointExplosionEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6CE1FDFE5450010BDC8 /* DHPointExplosionEffect.m */; };
+		54F4A7C81FDFE5450010BDC8 /* DHShadowRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6D01FDFE5450010BDC8 /* DHShadowRenderer.h */; };
+		54F4A7C91FDFE5450010BDC8 /* DHShadowRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6D11FDFE5450010BDC8 /* DHShadowRenderer.m */; };
+		54F4A7CA1FDFE5450010BDC8 /* DHShimmerParticleEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6D31FDFE5450010BDC8 /* DHShimmerParticleEffect.h */; };
+		54F4A7CB1FDFE5450010BDC8 /* DHShimmerParticleEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6D41FDFE5450010BDC8 /* DHShimmerParticleEffect.m */; };
+		54F4A7CC1FDFE5450010BDC8 /* DHShiningStarEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6D51FDFE5450010BDC8 /* DHShiningStarEffect.h */; };
+		54F4A7CD1FDFE5450010BDC8 /* DHShiningStarEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6D61FDFE5450010BDC8 /* DHShiningStarEffect.m */; };
+		54F4A7CE1FDFE5450010BDC8 /* DHSparkleEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6D81FDFE5450010BDC8 /* DHSparkleEffect.h */; };
+		54F4A7CF1FDFE5450010BDC8 /* DHSparkleEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6D91FDFE5450010BDC8 /* DHSparkleEffect.m */; };
+		54F4A7D01FDFE5450010BDC8 /* DHTextDanceAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6DC1FDFE5450010BDC8 /* DHTextDanceAnimationRenderer.h */; };
+		54F4A7D11FDFE5450010BDC8 /* DHTextDanceAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6DD1FDFE5450010BDC8 /* DHTextDanceAnimationRenderer.m */; };
+		54F4A7D21FDFE5450010BDC8 /* DHTextDanceMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6DE1FDFE5450010BDC8 /* DHTextDanceMesh.h */; };
+		54F4A7D31FDFE5450010BDC8 /* DHTextDanceMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6DF1FDFE5450010BDC8 /* DHTextDanceMesh.m */; };
+		54F4A7D41FDFE5450010BDC8 /* DHTextFadeAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6E11FDFE5450010BDC8 /* DHTextFadeAnimationRenderer.h */; };
+		54F4A7D51FDFE5450010BDC8 /* DHTextFadeAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6E21FDFE5450010BDC8 /* DHTextFadeAnimationRenderer.m */; };
+		54F4A7D61FDFE5450010BDC8 /* DHTextFadeMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6E31FDFE5450010BDC8 /* DHTextFadeMesh.h */; };
+		54F4A7D71FDFE5450010BDC8 /* DHTextFadeMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6E41FDFE5450010BDC8 /* DHTextFadeMesh.m */; };
+		54F4A7D81FDFE5450010BDC8 /* DHTextFlyInAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6E61FDFE5450010BDC8 /* DHTextFlyInAnimationRenderer.h */; };
+		54F4A7D91FDFE5450010BDC8 /* DHTextFlyInAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6E71FDFE5450010BDC8 /* DHTextFlyInAnimationRenderer.m */; };
+		54F4A7DA1FDFE5450010BDC8 /* DHTextFlyInMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6E81FDFE5450010BDC8 /* DHTextFlyInMesh.h */; };
+		54F4A7DB1FDFE5450010BDC8 /* DHTextFlyInMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6E91FDFE5450010BDC8 /* DHTextFlyInMesh.m */; };
+		54F4A7DC1FDFE5450010BDC8 /* DHTextOrbitalAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6EB1FDFE5450010BDC8 /* DHTextOrbitalAnimationRenderer.h */; };
+		54F4A7DD1FDFE5450010BDC8 /* DHTextOrbitalAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6EC1FDFE5450010BDC8 /* DHTextOrbitalAnimationRenderer.m */; };
+		54F4A7DE1FDFE5450010BDC8 /* DHTextOrbitalMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6ED1FDFE5450010BDC8 /* DHTextOrbitalMesh.h */; };
+		54F4A7DF1FDFE5450010BDC8 /* DHTextOrbitalMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6EE1FDFE5450010BDC8 /* DHTextOrbitalMesh.m */; };
+		54F4A7E01FDFE5450010BDC8 /* DHTextSquishAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6F01FDFE5450010BDC8 /* DHTextSquishAnimationRenderer.h */; };
+		54F4A7E11FDFE5450010BDC8 /* DHTextSquishAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6F11FDFE5450010BDC8 /* DHTextSquishAnimationRenderer.m */; };
+		54F4A7E21FDFE5450010BDC8 /* DHTextSquishMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6F21FDFE5450010BDC8 /* DHTextSquishMesh.h */; };
+		54F4A7E31FDFE5450010BDC8 /* DHTextSquishMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6F31FDFE5450010BDC8 /* DHTextSquishMesh.m */; };
+		54F4A7E41FDFE5450010BDC8 /* DHTextTraceAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6F51FDFE5450010BDC8 /* DHTextTraceAnimationRenderer.h */; };
+		54F4A7E51FDFE5450010BDC8 /* DHTextTraceAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6F61FDFE5450010BDC8 /* DHTextTraceAnimationRenderer.m */; };
+		54F4A7E61FDFE5450010BDC8 /* DHTextTraceTextMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6F71FDFE5450010BDC8 /* DHTextTraceTextMesh.h */; };
+		54F4A7E71FDFE5450010BDC8 /* DHTextTraceTextMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6F81FDFE5450010BDC8 /* DHTextTraceTextMesh.m */; };
+		54F4A7E81FDFE5450010BDC8 /* DHTextTraceTraceMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6F91FDFE5450010BDC8 /* DHTextTraceTraceMesh.h */; };
+		54F4A7E91FDFE5450010BDC8 /* DHTextTraceTraceMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6FA1FDFE5450010BDC8 /* DHTextTraceTraceMesh.m */; };
+		54F4A7EA1FDFE5450010BDC8 /* DHClothLineTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A6FD1FDFE5450010BDC8 /* DHClothLineTransitionRenderer.h */; };
+		54F4A7EB1FDFE5450010BDC8 /* DHClothLineTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A6FE1FDFE5450010BDC8 /* DHClothLineTransitionRenderer.m */; };
+		54F4A7EC1FDFE5450010BDC8 /* DHConfettiSourceMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7001FDFE5450010BDC8 /* DHConfettiSourceMesh.h */; };
+		54F4A7ED1FDFE5450010BDC8 /* DHConfettiSourceMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7011FDFE5450010BDC8 /* DHConfettiSourceMesh.m */; };
+		54F4A7EE1FDFE5450010BDC8 /* DHConfettiTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7021FDFE5450010BDC8 /* DHConfettiTransitionRenderer.h */; };
+		54F4A7EF1FDFE5450010BDC8 /* DHConfettiTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7031FDFE5450010BDC8 /* DHConfettiTransitionRenderer.m */; };
+		54F4A7F01FDFE5450010BDC8 /* DHCoverTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7051FDFE5450010BDC8 /* DHCoverTransitionRenderer.h */; };
+		54F4A7F11FDFE5450010BDC8 /* DHCoverTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7061FDFE5450010BDC8 /* DHCoverTransitionRenderer.m */; };
+		54F4A7F21FDFE5450010BDC8 /* DHCubeDestinationMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7081FDFE5450010BDC8 /* DHCubeDestinationMesh.h */; };
+		54F4A7F31FDFE5450010BDC8 /* DHCubeDestinationMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7091FDFE5450010BDC8 /* DHCubeDestinationMesh.m */; };
+		54F4A7F41FDFE5450010BDC8 /* DHCubeMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A70A1FDFE5450010BDC8 /* DHCubeMesh.h */; };
+		54F4A7F51FDFE5450010BDC8 /* DHCubeMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A70B1FDFE5450010BDC8 /* DHCubeMesh.m */; };
+		54F4A7F61FDFE5450010BDC8 /* DHCubeSourceMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A70C1FDFE5450010BDC8 /* DHCubeSourceMesh.h */; };
+		54F4A7F71FDFE5450010BDC8 /* DHCubeSourceMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A70D1FDFE5450010BDC8 /* DHCubeSourceMesh.m */; };
+		54F4A7F81FDFE5450010BDC8 /* DHCubeTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A70E1FDFE5450010BDC8 /* DHCubeTransitionRenderer.h */; };
+		54F4A7F91FDFE5450010BDC8 /* DHCubeTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A70F1FDFE5450010BDC8 /* DHCubeTransitionRenderer.m */; };
+		54F4A7FA1FDFE5450010BDC8 /* DHDoorWayTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7111FDFE5450010BDC8 /* DHDoorWayTransitionRenderer.h */; };
+		54F4A7FB1FDFE5450010BDC8 /* DHDoorWayTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7121FDFE5450010BDC8 /* DHDoorWayTransitionRenderer.m */; };
+		54F4A7FC1FDFE5450010BDC8 /* DHDropTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7141FDFE5450010BDC8 /* DHDropTransitionRenderer.h */; };
+		54F4A7FD1FDFE5450010BDC8 /* DHDropTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7151FDFE5450010BDC8 /* DHDropTransitionRenderer.m */; };
+		54F4A7FE1FDFE5450010BDC8 /* DHFlipTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7171FDFE5450010BDC8 /* DHFlipTransitionRenderer.h */; };
+		54F4A7FF1FDFE5450010BDC8 /* DHFlipTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7181FDFE5450010BDC8 /* DHFlipTransitionRenderer.m */; };
+		54F4A8001FDFE5450010BDC8 /* DHFlopTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A71A1FDFE5450010BDC8 /* DHFlopTransitionRenderer.h */; };
+		54F4A8011FDFE5450010BDC8 /* DHFlopTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A71B1FDFE5450010BDC8 /* DHFlopTransitionRenderer.m */; };
+		54F4A8021FDFE5450010BDC8 /* DHGridTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A71D1FDFE5450010BDC8 /* DHGridTransitionRenderer.h */; };
+		54F4A8031FDFE5450010BDC8 /* DHGridTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A71E1FDFE5450010BDC8 /* DHGridTransitionRenderer.m */; };
+		54F4A8041FDFE5450010BDC8 /* DHMosaicBackMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7201FDFE5450010BDC8 /* DHMosaicBackMesh.h */; };
+		54F4A8051FDFE5450010BDC8 /* DHMosaicBackMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7211FDFE5450010BDC8 /* DHMosaicBackMesh.m */; };
+		54F4A8061FDFE5450010BDC8 /* DHMosaicMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7221FDFE5450010BDC8 /* DHMosaicMesh.h */; };
+		54F4A8071FDFE5450010BDC8 /* DHMosaicMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7231FDFE5450010BDC8 /* DHMosaicMesh.m */; };
+		54F4A8081FDFE5450010BDC8 /* DHMosaicTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7241FDFE5450010BDC8 /* DHMosaicTransitionRenderer.h */; };
+		54F4A8091FDFE5450010BDC8 /* DHMosaicTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7251FDFE5450010BDC8 /* DHMosaicTransitionRenderer.m */; };
+		54F4A80A1FDFE5450010BDC8 /* DHPageCurlTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7271FDFE5450010BDC8 /* DHPageCurlTransitionRenderer.h */; };
+		54F4A80B1FDFE5450010BDC8 /* DHPageCurlTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7281FDFE5450010BDC8 /* DHPageCurlTransitionRenderer.m */; };
+		54F4A80C1FDFE5450010BDC8 /* DHPushTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A72A1FDFE5450010BDC8 /* DHPushTransitionRenderer.h */; };
+		54F4A80D1FDFE5450010BDC8 /* DHPushTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A72B1FDFE5450010BDC8 /* DHPushTransitionRenderer.m */; };
+		54F4A80E1FDFE5450010BDC8 /* DHReflectionTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A72D1FDFE5450010BDC8 /* DHReflectionTransitionRenderer.h */; };
+		54F4A80F1FDFE5450010BDC8 /* DHReflectionTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A72E1FDFE5450010BDC8 /* DHReflectionTransitionRenderer.m */; };
+		54F4A8101FDFE5450010BDC8 /* DHResolvingDoorTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7301FDFE5450010BDC8 /* DHResolvingDoorTransitionRenderer.h */; };
+		54F4A8111FDFE5450010BDC8 /* DHResolvingDoorTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7311FDFE5450010BDC8 /* DHResolvingDoorTransitionRenderer.m */; };
+		54F4A8121FDFE5450010BDC8 /* DHRevealTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7331FDFE5450010BDC8 /* DHRevealTransitionRenderer.h */; };
+		54F4A8131FDFE5450010BDC8 /* DHRevealTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7341FDFE5450010BDC8 /* DHRevealTransitionRenderer.m */; };
+		54F4A8141FDFE5450010BDC8 /* DHRippleTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7361FDFE5450010BDC8 /* DHRippleTransitionRenderer.h */; };
+		54F4A8151FDFE5450010BDC8 /* DHRippleTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7371FDFE5450010BDC8 /* DHRippleTransitionRenderer.m */; };
+		54F4A8161FDFE5450010BDC8 /* DHSpinDismissTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7391FDFE5450010BDC8 /* DHSpinDismissTransitionRenderer.h */; };
+		54F4A8171FDFE5450010BDC8 /* DHSpinDismissTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A73A1FDFE5450010BDC8 /* DHSpinDismissTransitionRenderer.m */; };
+		54F4A8181FDFE5450010BDC8 /* DHSwitchTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A73C1FDFE5450010BDC8 /* DHSwitchTransitionRenderer.h */; };
+		54F4A8191FDFE5450010BDC8 /* DHSwitchTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A73D1FDFE5450010BDC8 /* DHSwitchTransitionRenderer.m */; };
+		54F4A81A1FDFE5450010BDC8 /* DHTwistMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A73F1FDFE5450010BDC8 /* DHTwistMesh.h */; };
+		54F4A81B1FDFE5450010BDC8 /* DHTwistMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7401FDFE5450010BDC8 /* DHTwistMesh.m */; };
+		54F4A81C1FDFE5450010BDC8 /* DHTwistTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7411FDFE5450010BDC8 /* DHTwistTransitionRenderer.h */; };
+		54F4A81D1FDFE5450010BDC8 /* DHTwistTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7421FDFE5450010BDC8 /* DHTwistTransitionRenderer.m */; };
+		54F4A81E1FDFE5450010BDC8 /* DHConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7441FDFE5450010BDC8 /* DHConstants.h */; };
+		54F4A81F1FDFE5450010BDC8 /* DHConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7451FDFE5450010BDC8 /* DHConstants.m */; };
+		54F4A8201FDFE5450010BDC8 /* DHObjectAnimationSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7461FDFE5450010BDC8 /* DHObjectAnimationSettings.h */; };
+		54F4A8211FDFE5450010BDC8 /* DHObjectAnimationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7471FDFE5450010BDC8 /* DHObjectAnimationSettings.m */; };
+		54F4A8221FDFE5450010BDC8 /* DHTextAnimationSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7481FDFE5450010BDC8 /* DHTextAnimationSettings.h */; };
+		54F4A8231FDFE5450010BDC8 /* DHTextAnimationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7491FDFE5450010BDC8 /* DHTextAnimationSettings.m */; };
+		54F4A8241FDFE5450010BDC8 /* DHTransitionSettings.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A74A1FDFE5450010BDC8 /* DHTransitionSettings.h */; };
+		54F4A8251FDFE5450010BDC8 /* DHTransitionSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A74B1FDFE5450010BDC8 /* DHTransitionSettings.m */; };
+		54F4A8261FDFE5450010BDC8 /* DHConsecutiveTextureSceneMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A74D1FDFE5450010BDC8 /* DHConsecutiveTextureSceneMesh.h */; };
+		54F4A8271FDFE5450010BDC8 /* DHConsecutiveTextureSceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A74E1FDFE5450010BDC8 /* DHConsecutiveTextureSceneMesh.m */; };
+		54F4A8281FDFE5450010BDC8 /* DHParticleEffect.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A74F1FDFE5450010BDC8 /* DHParticleEffect.h */; };
+		54F4A8291FDFE5450010BDC8 /* DHParticleEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7501FDFE5450010BDC8 /* DHParticleEffect.m */; };
+		54F4A82A1FDFE5450010BDC8 /* DHSceneMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7511FDFE5450010BDC8 /* DHSceneMesh.h */; };
+		54F4A82B1FDFE5450010BDC8 /* DHSceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7521FDFE5450010BDC8 /* DHSceneMesh.m */; };
+		54F4A82C1FDFE5450010BDC8 /* DHSceneMeshFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7531FDFE5450010BDC8 /* DHSceneMeshFactory.h */; };
+		54F4A82D1FDFE5450010BDC8 /* DHSceneMeshFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7541FDFE5450010BDC8 /* DHSceneMeshFactory.m */; };
+		54F4A82E1FDFE5450010BDC8 /* DHSplitTextureSceneMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7551FDFE5450010BDC8 /* DHSplitTextureSceneMesh.h */; };
+		54F4A82F1FDFE5450010BDC8 /* DHSplitTextureSceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7561FDFE5450010BDC8 /* DHSplitTextureSceneMesh.m */; };
+		54F4A8301FDFE5450010BDC8 /* DHTextSceneMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7571FDFE5450010BDC8 /* DHTextSceneMesh.h */; };
+		54F4A8311FDFE5450010BDC8 /* DHTextSceneMesh.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7581FDFE5450010BDC8 /* DHTextSceneMesh.m */; };
+		54F4A8321FDFE5450010BDC8 /* OpenGLHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A75A1FDFE5450010BDC8 /* OpenGLHelper.h */; };
+		54F4A8331FDFE5450010BDC8 /* OpenGLHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A75B1FDFE5450010BDC8 /* OpenGLHelper.m */; };
+		54F4A8341FDFE5450010BDC8 /* TextureHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A75C1FDFE5450010BDC8 /* TextureHelper.h */; };
+		54F4A8351FDFE5450010BDC8 /* TextureHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A75D1FDFE5450010BDC8 /* TextureHelper.m */; };
+		54F4A8361FDFE5450010BDC8 /* DHBackgroundRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A75F1FDFE5450010BDC8 /* DHBackgroundRenderer.h */; };
+		54F4A8371FDFE5450010BDC8 /* DHBackgroundRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7601FDFE5450010BDC8 /* DHBackgroundRenderer.m */; };
+		54F4A8381FDFE5450010BDC8 /* DHObjectAnimationRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7611FDFE5450010BDC8 /* DHObjectAnimationRenderer.h */; };
+		54F4A8391FDFE5450010BDC8 /* DHObjectAnimationRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7621FDFE5450010BDC8 /* DHObjectAnimationRenderer.m */; };
+		54F4A83A1FDFE5450010BDC8 /* DHTextEffectRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7631FDFE5450010BDC8 /* DHTextEffectRenderer.h */; };
+		54F4A83B1FDFE5450010BDC8 /* DHTextEffectRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7641FDFE5450010BDC8 /* DHTextEffectRenderer.m */; };
+		54F4A83C1FDFE5450010BDC8 /* DHTransitionRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7651FDFE5450010BDC8 /* DHTransitionRenderer.h */; };
+		54F4A83D1FDFE5450010BDC8 /* DHTransitionRenderer.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7661FDFE5450010BDC8 /* DHTransitionRenderer.m */; };
+		54F4A83E1FDFE5450010BDC8 /* DHTimingFunctionHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A7681FDFE5450010BDC8 /* DHTimingFunctionHelper.h */; };
+		54F4A83F1FDFE5450010BDC8 /* DHTimingFunctionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A7691FDFE5450010BDC8 /* DHTimingFunctionHelper.m */; };
+		54F4A8401FDFE5450010BDC8 /* NSBKeyframeAnimationFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A76A1FDFE5450010BDC8 /* NSBKeyframeAnimationFunctions.c */; };
+		54F4A8411FDFE5450010BDC8 /* NSBKeyframeAnimationFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A76B1FDFE5450010BDC8 /* NSBKeyframeAnimationFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54F4A86C1FDFE7A40010BDC8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54F4A86A1FDFE7A40010BDC8 /* Info.plist */; };
+		54F4A86D1FDFE7A40010BDC8 /* DHAnimationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A86B1FDFE7A40010BDC8 /* DHAnimationKit.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54F4A63F1FDFE1940010BDC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F4A62B1FDFE1940010BDC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F4A6331FDFE1940010BDC8;
+			remoteInfo = DHAnimationKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54F4A6341FDFE1940010BDC8 /* DHAnimationKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DHAnimationKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F4A63D1FDFE1940010BDC8 /* DHAnimationKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DHAnimationKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F4A6521FDFE5450010BDC8 /* DHAnvilAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHAnvilAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6531FDFE5450010BDC8 /* DHAnvilAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHAnvilAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6551FDFE5450010BDC8 /* DHBlindsAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBlindsAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6561FDFE5450010BDC8 /* DHBlindsAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHBlindsAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6581FDFE5450010BDC8 /* DHBlowAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBlowAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6591FDFE5450010BDC8 /* DHBlowAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHBlowAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A65A1FDFE5450010BDC8 /* DHBlowSceneMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBlowSceneMesh.h; sourceTree = "<group>"; };
+		54F4A65B1FDFE5450010BDC8 /* DHBlowSceneMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHBlowSceneMesh.m; sourceTree = "<group>"; };
+		54F4A65D1FDFE5450010BDC8 /* DHBlurAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBlurAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A65E1FDFE5450010BDC8 /* DHBlurAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHBlurAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6601FDFE5450010BDC8 /* DHCompressAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCompressAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6611FDFE5450010BDC8 /* DHCompressAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCompressAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6631FDFE5450010BDC8 /* DHConfettiAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHConfettiAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6641FDFE5450010BDC8 /* DHConfettiAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHConfettiAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6661FDFE5450010BDC8 /* DHCrumbleAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCrumbleAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6671FDFE5450010BDC8 /* DHCrumbleAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCrumbleAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6681FDFE5450010BDC8 /* DHCrumbleMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCrumbleMesh.h; sourceTree = "<group>"; };
+		54F4A6691FDFE5450010BDC8 /* DHCrumbleMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCrumbleMesh.m; sourceTree = "<group>"; };
+		54F4A66A1FDFE5450010BDC8 /* DHEdge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHEdge.h; sourceTree = "<group>"; };
+		54F4A66B1FDFE5450010BDC8 /* DHEdge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHEdge.m; sourceTree = "<group>"; };
+		54F4A66C1FDFE5450010BDC8 /* DHIntersectPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHIntersectPoint.h; sourceTree = "<group>"; };
+		54F4A66D1FDFE5450010BDC8 /* DHIntersectPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHIntersectPoint.m; sourceTree = "<group>"; };
+		54F4A66E1FDFE5450010BDC8 /* DHLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHLine.h; sourceTree = "<group>"; };
+		54F4A66F1FDFE5450010BDC8 /* DHLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHLine.m; sourceTree = "<group>"; };
+		54F4A6701FDFE5450010BDC8 /* DHPolygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHPolygon.h; sourceTree = "<group>"; };
+		54F4A6711FDFE5450010BDC8 /* DHPolygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHPolygon.m; sourceTree = "<group>"; };
+		54F4A6731FDFE5450010BDC8 /* DHDiffuseAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDiffuseAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6741FDFE5450010BDC8 /* DHDiffuseAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDiffuseAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6751FDFE5450010BDC8 /* DHDiffuseSceneMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDiffuseSceneMesh.h; sourceTree = "<group>"; };
+		54F4A6761FDFE5450010BDC8 /* DHDiffuseSceneMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDiffuseSceneMesh.m; sourceTree = "<group>"; };
+		54F4A6781FDFE5450010BDC8 /* DHDissolveAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDissolveAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6791FDFE5450010BDC8 /* DHDissolveAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDissolveAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A67B1FDFE5450010BDC8 /* DHDropAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDropAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A67C1FDFE5450010BDC8 /* DHDropAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDropAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A67E1FDFE5450010BDC8 /* DHFaceExplosionAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFaceExplosionAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A67F1FDFE5450010BDC8 /* DHFaceExplosionAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFaceExplosionAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6811FDFE5450010BDC8 /* DHFireworkAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFireworkAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6821FDFE5450010BDC8 /* DHFireworkAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFireworkAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6841FDFE5450010BDC8 /* DHFlameAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFlameAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6851FDFE5450010BDC8 /* DHFlameAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFlameAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6871FDFE5450010BDC8 /* DHFoldAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFoldAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6881FDFE5450010BDC8 /* DHFoldAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFoldAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6891FDFE5450010BDC8 /* DHFoldSceneMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFoldSceneMesh.h; sourceTree = "<group>"; };
+		54F4A68A1FDFE5450010BDC8 /* DHFoldSceneMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFoldSceneMesh.m; sourceTree = "<group>"; };
+		54F4A68C1FDFE5450010BDC8 /* DHPivotAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHPivotAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A68D1FDFE5450010BDC8 /* DHPivotAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHPivotAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A68F1FDFE5450010BDC8 /* DHPointExplosionAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHPointExplosionAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6901FDFE5450010BDC8 /* DHPointExplosionAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHPointExplosionAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6921FDFE5450010BDC8 /* DHPopAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHPopAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6931FDFE5450010BDC8 /* DHPopAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHPopAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6951FDFE5450010BDC8 /* DHRotationAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHRotationAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6961FDFE5450010BDC8 /* DHRotationAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHRotationAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6981FDFE5450010BDC8 /* DHScaleAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHScaleAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6991FDFE5450010BDC8 /* DHScaleAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHScaleAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A69B1FDFE5450010BDC8 /* DHScaleBigAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHScaleBigAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A69C1FDFE5450010BDC8 /* DHScaleBigAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHScaleBigAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A69E1FDFE5450010BDC8 /* DHShimmerAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHShimmerAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A69F1FDFE5450010BDC8 /* DHShimmerAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHShimmerAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6A01FDFE5450010BDC8 /* DHShimmerBackgroundMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHShimmerBackgroundMesh.h; sourceTree = "<group>"; };
+		54F4A6A11FDFE5450010BDC8 /* DHShimmerBackgroundMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHShimmerBackgroundMesh.m; sourceTree = "<group>"; };
+		54F4A6A31FDFE5450010BDC8 /* DHShredderAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHShredderAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6A41FDFE5450010BDC8 /* DHShredderAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHShredderAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6A51FDFE5450010BDC8 /* DHShredderAnimationSceneMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHShredderAnimationSceneMesh.h; sourceTree = "<group>"; };
+		54F4A6A61FDFE5450010BDC8 /* DHShredderAnimationSceneMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHShredderAnimationSceneMesh.m; sourceTree = "<group>"; };
+		54F4A6A71FDFE5450010BDC8 /* DHShredderConfettiMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHShredderConfettiMesh.h; sourceTree = "<group>"; };
+		54F4A6A81FDFE5450010BDC8 /* DHShredderConfettiMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHShredderConfettiMesh.m; sourceTree = "<group>"; };
+		54F4A6A91FDFE5450010BDC8 /* DHShredderMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHShredderMesh.h; sourceTree = "<group>"; };
+		54F4A6AA1FDFE5450010BDC8 /* DHShredderMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHShredderMesh.m; sourceTree = "<group>"; };
+		54F4A6AC1FDFE5450010BDC8 /* DHSkidAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSkidAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6AD1FDFE5450010BDC8 /* DHSkidAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSkidAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6AF1FDFE5450010BDC8 /* DHSparkleAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSparkleAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6B01FDFE5450010BDC8 /* DHSparkleAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSparkleAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6B21FDFE5450010BDC8 /* DHSpinAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSpinAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6B31FDFE5450010BDC8 /* DHSpinAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSpinAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6B51FDFE5450010BDC8 /* DHTwirlAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTwirlAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6B61FDFE5450010BDC8 /* DHTwirlAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTwirlAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6B81FDFE5450010BDC8 /* DHWipeAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHWipeAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6B91FDFE5450010BDC8 /* DHWipeAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHWipeAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6BC1FDFE5450010BDC8 /* DHCameraShakeEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCameraShakeEffect.h; sourceTree = "<group>"; };
+		54F4A6BD1FDFE5450010BDC8 /* DHCameraShakeEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCameraShakeEffect.m; sourceTree = "<group>"; };
+		54F4A6BF1FDFE5450010BDC8 /* DHDustEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDustEffect.h; sourceTree = "<group>"; };
+		54F4A6C01FDFE5450010BDC8 /* DHDustEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDustEffect.m; sourceTree = "<group>"; };
+		54F4A6C21FDFE5450010BDC8 /* DHFaceExplosionEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFaceExplosionEffect.h; sourceTree = "<group>"; };
+		54F4A6C31FDFE5450010BDC8 /* DHFaceExplosionEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFaceExplosionEffect.m; sourceTree = "<group>"; };
+		54F4A6C51FDFE5450010BDC8 /* DHFireworkEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFireworkEffect.h; sourceTree = "<group>"; };
+		54F4A6C61FDFE5450010BDC8 /* DHFireworkEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFireworkEffect.m; sourceTree = "<group>"; };
+		54F4A6C71FDFE5450010BDC8 /* DHFireworkSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFireworkSettings.h; sourceTree = "<group>"; };
+		54F4A6C81FDFE5450010BDC8 /* DHFireworkSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFireworkSettings.m; sourceTree = "<group>"; };
+		54F4A6CA1FDFE5450010BDC8 /* DHFlameEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFlameEffect.h; sourceTree = "<group>"; };
+		54F4A6CB1FDFE5450010BDC8 /* DHFlameEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFlameEffect.m; sourceTree = "<group>"; };
+		54F4A6CD1FDFE5450010BDC8 /* DHPointExplosionEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHPointExplosionEffect.h; sourceTree = "<group>"; };
+		54F4A6CE1FDFE5450010BDC8 /* DHPointExplosionEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHPointExplosionEffect.m; sourceTree = "<group>"; };
+		54F4A6D01FDFE5450010BDC8 /* DHShadowRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHShadowRenderer.h; sourceTree = "<group>"; };
+		54F4A6D11FDFE5450010BDC8 /* DHShadowRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHShadowRenderer.m; sourceTree = "<group>"; };
+		54F4A6D31FDFE5450010BDC8 /* DHShimmerParticleEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHShimmerParticleEffect.h; sourceTree = "<group>"; };
+		54F4A6D41FDFE5450010BDC8 /* DHShimmerParticleEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHShimmerParticleEffect.m; sourceTree = "<group>"; };
+		54F4A6D51FDFE5450010BDC8 /* DHShiningStarEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHShiningStarEffect.h; sourceTree = "<group>"; };
+		54F4A6D61FDFE5450010BDC8 /* DHShiningStarEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHShiningStarEffect.m; sourceTree = "<group>"; };
+		54F4A6D81FDFE5450010BDC8 /* DHSparkleEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSparkleEffect.h; sourceTree = "<group>"; };
+		54F4A6D91FDFE5450010BDC8 /* DHSparkleEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSparkleEffect.m; sourceTree = "<group>"; };
+		54F4A6DC1FDFE5450010BDC8 /* DHTextDanceAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextDanceAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6DD1FDFE5450010BDC8 /* DHTextDanceAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextDanceAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6DE1FDFE5450010BDC8 /* DHTextDanceMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextDanceMesh.h; sourceTree = "<group>"; };
+		54F4A6DF1FDFE5450010BDC8 /* DHTextDanceMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextDanceMesh.m; sourceTree = "<group>"; };
+		54F4A6E11FDFE5450010BDC8 /* DHTextFadeAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextFadeAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6E21FDFE5450010BDC8 /* DHTextFadeAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextFadeAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6E31FDFE5450010BDC8 /* DHTextFadeMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextFadeMesh.h; sourceTree = "<group>"; };
+		54F4A6E41FDFE5450010BDC8 /* DHTextFadeMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextFadeMesh.m; sourceTree = "<group>"; };
+		54F4A6E61FDFE5450010BDC8 /* DHTextFlyInAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextFlyInAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6E71FDFE5450010BDC8 /* DHTextFlyInAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextFlyInAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6E81FDFE5450010BDC8 /* DHTextFlyInMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextFlyInMesh.h; sourceTree = "<group>"; };
+		54F4A6E91FDFE5450010BDC8 /* DHTextFlyInMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextFlyInMesh.m; sourceTree = "<group>"; };
+		54F4A6EB1FDFE5450010BDC8 /* DHTextOrbitalAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextOrbitalAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6EC1FDFE5450010BDC8 /* DHTextOrbitalAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextOrbitalAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6ED1FDFE5450010BDC8 /* DHTextOrbitalMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextOrbitalMesh.h; sourceTree = "<group>"; };
+		54F4A6EE1FDFE5450010BDC8 /* DHTextOrbitalMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextOrbitalMesh.m; sourceTree = "<group>"; };
+		54F4A6F01FDFE5450010BDC8 /* DHTextSquishAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextSquishAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6F11FDFE5450010BDC8 /* DHTextSquishAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextSquishAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6F21FDFE5450010BDC8 /* DHTextSquishMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextSquishMesh.h; sourceTree = "<group>"; };
+		54F4A6F31FDFE5450010BDC8 /* DHTextSquishMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextSquishMesh.m; sourceTree = "<group>"; };
+		54F4A6F51FDFE5450010BDC8 /* DHTextTraceAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextTraceAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A6F61FDFE5450010BDC8 /* DHTextTraceAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextTraceAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A6F71FDFE5450010BDC8 /* DHTextTraceTextMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextTraceTextMesh.h; sourceTree = "<group>"; };
+		54F4A6F81FDFE5450010BDC8 /* DHTextTraceTextMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextTraceTextMesh.m; sourceTree = "<group>"; };
+		54F4A6F91FDFE5450010BDC8 /* DHTextTraceTraceMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextTraceTraceMesh.h; sourceTree = "<group>"; };
+		54F4A6FA1FDFE5450010BDC8 /* DHTextTraceTraceMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextTraceTraceMesh.m; sourceTree = "<group>"; };
+		54F4A6FD1FDFE5450010BDC8 /* DHClothLineTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHClothLineTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A6FE1FDFE5450010BDC8 /* DHClothLineTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHClothLineTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A7001FDFE5450010BDC8 /* DHConfettiSourceMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHConfettiSourceMesh.h; sourceTree = "<group>"; };
+		54F4A7011FDFE5450010BDC8 /* DHConfettiSourceMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHConfettiSourceMesh.m; sourceTree = "<group>"; };
+		54F4A7021FDFE5450010BDC8 /* DHConfettiTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHConfettiTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A7031FDFE5450010BDC8 /* DHConfettiTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHConfettiTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A7051FDFE5450010BDC8 /* DHCoverTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCoverTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A7061FDFE5450010BDC8 /* DHCoverTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCoverTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A7081FDFE5450010BDC8 /* DHCubeDestinationMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCubeDestinationMesh.h; sourceTree = "<group>"; };
+		54F4A7091FDFE5450010BDC8 /* DHCubeDestinationMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCubeDestinationMesh.m; sourceTree = "<group>"; };
+		54F4A70A1FDFE5450010BDC8 /* DHCubeMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCubeMesh.h; sourceTree = "<group>"; };
+		54F4A70B1FDFE5450010BDC8 /* DHCubeMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCubeMesh.m; sourceTree = "<group>"; };
+		54F4A70C1FDFE5450010BDC8 /* DHCubeSourceMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCubeSourceMesh.h; sourceTree = "<group>"; };
+		54F4A70D1FDFE5450010BDC8 /* DHCubeSourceMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCubeSourceMesh.m; sourceTree = "<group>"; };
+		54F4A70E1FDFE5450010BDC8 /* DHCubeTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCubeTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A70F1FDFE5450010BDC8 /* DHCubeTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCubeTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A7111FDFE5450010BDC8 /* DHDoorWayTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDoorWayTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A7121FDFE5450010BDC8 /* DHDoorWayTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDoorWayTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A7141FDFE5450010BDC8 /* DHDropTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDropTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A7151FDFE5450010BDC8 /* DHDropTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDropTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A7171FDFE5450010BDC8 /* DHFlipTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFlipTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A7181FDFE5450010BDC8 /* DHFlipTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFlipTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A71A1FDFE5450010BDC8 /* DHFlopTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHFlopTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A71B1FDFE5450010BDC8 /* DHFlopTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHFlopTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A71D1FDFE5450010BDC8 /* DHGridTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHGridTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A71E1FDFE5450010BDC8 /* DHGridTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHGridTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A7201FDFE5450010BDC8 /* DHMosaicBackMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMosaicBackMesh.h; sourceTree = "<group>"; };
+		54F4A7211FDFE5450010BDC8 /* DHMosaicBackMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMosaicBackMesh.m; sourceTree = "<group>"; };
+		54F4A7221FDFE5450010BDC8 /* DHMosaicMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMosaicMesh.h; sourceTree = "<group>"; };
+		54F4A7231FDFE5450010BDC8 /* DHMosaicMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMosaicMesh.m; sourceTree = "<group>"; };
+		54F4A7241FDFE5450010BDC8 /* DHMosaicTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHMosaicTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A7251FDFE5450010BDC8 /* DHMosaicTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHMosaicTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A7271FDFE5450010BDC8 /* DHPageCurlTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHPageCurlTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A7281FDFE5450010BDC8 /* DHPageCurlTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHPageCurlTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A72A1FDFE5450010BDC8 /* DHPushTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHPushTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A72B1FDFE5450010BDC8 /* DHPushTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHPushTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A72D1FDFE5450010BDC8 /* DHReflectionTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHReflectionTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A72E1FDFE5450010BDC8 /* DHReflectionTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHReflectionTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A7301FDFE5450010BDC8 /* DHResolvingDoorTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHResolvingDoorTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A7311FDFE5450010BDC8 /* DHResolvingDoorTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHResolvingDoorTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A7331FDFE5450010BDC8 /* DHRevealTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHRevealTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A7341FDFE5450010BDC8 /* DHRevealTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHRevealTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A7361FDFE5450010BDC8 /* DHRippleTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHRippleTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A7371FDFE5450010BDC8 /* DHRippleTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHRippleTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A7391FDFE5450010BDC8 /* DHSpinDismissTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSpinDismissTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A73A1FDFE5450010BDC8 /* DHSpinDismissTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSpinDismissTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A73C1FDFE5450010BDC8 /* DHSwitchTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSwitchTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A73D1FDFE5450010BDC8 /* DHSwitchTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSwitchTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A73F1FDFE5450010BDC8 /* DHTwistMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTwistMesh.h; sourceTree = "<group>"; };
+		54F4A7401FDFE5450010BDC8 /* DHTwistMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTwistMesh.m; sourceTree = "<group>"; };
+		54F4A7411FDFE5450010BDC8 /* DHTwistTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTwistTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A7421FDFE5450010BDC8 /* DHTwistTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTwistTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A7441FDFE5450010BDC8 /* DHConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHConstants.h; sourceTree = "<group>"; };
+		54F4A7451FDFE5450010BDC8 /* DHConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHConstants.m; sourceTree = "<group>"; };
+		54F4A7461FDFE5450010BDC8 /* DHObjectAnimationSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHObjectAnimationSettings.h; sourceTree = "<group>"; };
+		54F4A7471FDFE5450010BDC8 /* DHObjectAnimationSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHObjectAnimationSettings.m; sourceTree = "<group>"; };
+		54F4A7481FDFE5450010BDC8 /* DHTextAnimationSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextAnimationSettings.h; sourceTree = "<group>"; };
+		54F4A7491FDFE5450010BDC8 /* DHTextAnimationSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextAnimationSettings.m; sourceTree = "<group>"; };
+		54F4A74A1FDFE5450010BDC8 /* DHTransitionSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTransitionSettings.h; sourceTree = "<group>"; };
+		54F4A74B1FDFE5450010BDC8 /* DHTransitionSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTransitionSettings.m; sourceTree = "<group>"; };
+		54F4A74D1FDFE5450010BDC8 /* DHConsecutiveTextureSceneMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHConsecutiveTextureSceneMesh.h; sourceTree = "<group>"; };
+		54F4A74E1FDFE5450010BDC8 /* DHConsecutiveTextureSceneMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHConsecutiveTextureSceneMesh.m; sourceTree = "<group>"; };
+		54F4A74F1FDFE5450010BDC8 /* DHParticleEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHParticleEffect.h; sourceTree = "<group>"; };
+		54F4A7501FDFE5450010BDC8 /* DHParticleEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHParticleEffect.m; sourceTree = "<group>"; };
+		54F4A7511FDFE5450010BDC8 /* DHSceneMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSceneMesh.h; sourceTree = "<group>"; };
+		54F4A7521FDFE5450010BDC8 /* DHSceneMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSceneMesh.m; sourceTree = "<group>"; };
+		54F4A7531FDFE5450010BDC8 /* DHSceneMeshFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSceneMeshFactory.h; sourceTree = "<group>"; };
+		54F4A7541FDFE5450010BDC8 /* DHSceneMeshFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSceneMeshFactory.m; sourceTree = "<group>"; };
+		54F4A7551FDFE5450010BDC8 /* DHSplitTextureSceneMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSplitTextureSceneMesh.h; sourceTree = "<group>"; };
+		54F4A7561FDFE5450010BDC8 /* DHSplitTextureSceneMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSplitTextureSceneMesh.m; sourceTree = "<group>"; };
+		54F4A7571FDFE5450010BDC8 /* DHTextSceneMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextSceneMesh.h; sourceTree = "<group>"; };
+		54F4A7581FDFE5450010BDC8 /* DHTextSceneMesh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextSceneMesh.m; sourceTree = "<group>"; };
+		54F4A75A1FDFE5450010BDC8 /* OpenGLHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLHelper.h; sourceTree = "<group>"; };
+		54F4A75B1FDFE5450010BDC8 /* OpenGLHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OpenGLHelper.m; sourceTree = "<group>"; };
+		54F4A75C1FDFE5450010BDC8 /* TextureHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureHelper.h; sourceTree = "<group>"; };
+		54F4A75D1FDFE5450010BDC8 /* TextureHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextureHelper.m; sourceTree = "<group>"; };
+		54F4A75F1FDFE5450010BDC8 /* DHBackgroundRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBackgroundRenderer.h; sourceTree = "<group>"; };
+		54F4A7601FDFE5450010BDC8 /* DHBackgroundRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHBackgroundRenderer.m; sourceTree = "<group>"; };
+		54F4A7611FDFE5450010BDC8 /* DHObjectAnimationRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHObjectAnimationRenderer.h; sourceTree = "<group>"; };
+		54F4A7621FDFE5450010BDC8 /* DHObjectAnimationRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHObjectAnimationRenderer.m; sourceTree = "<group>"; };
+		54F4A7631FDFE5450010BDC8 /* DHTextEffectRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTextEffectRenderer.h; sourceTree = "<group>"; };
+		54F4A7641FDFE5450010BDC8 /* DHTextEffectRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTextEffectRenderer.m; sourceTree = "<group>"; };
+		54F4A7651FDFE5450010BDC8 /* DHTransitionRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTransitionRenderer.h; sourceTree = "<group>"; };
+		54F4A7661FDFE5450010BDC8 /* DHTransitionRenderer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTransitionRenderer.m; sourceTree = "<group>"; };
+		54F4A7681FDFE5450010BDC8 /* DHTimingFunctionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHTimingFunctionHelper.h; sourceTree = "<group>"; };
+		54F4A7691FDFE5450010BDC8 /* DHTimingFunctionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHTimingFunctionHelper.m; sourceTree = "<group>"; };
+		54F4A76A1FDFE5450010BDC8 /* NSBKeyframeAnimationFunctions.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NSBKeyframeAnimationFunctions.c; sourceTree = "<group>"; };
+		54F4A76B1FDFE5450010BDC8 /* NSBKeyframeAnimationFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSBKeyframeAnimationFunctions.h; sourceTree = "<group>"; };
+		54F4A86A1FDFE7A40010BDC8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Classes/Source/Info.plist; sourceTree = "<group>"; };
+		54F4A86B1FDFE7A40010BDC8 /* DHAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DHAnimationKit.h; path = Classes/Source/DHAnimationKit.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54F4A6301FDFE1940010BDC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F4A63A1FDFE1940010BDC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F4A63E1FDFE1940010BDC8 /* DHAnimationKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54F4A62A1FDFE1940010BDC8 = {
+			isa = PBXGroup;
+			children = (
+				54F4A86B1FDFE7A40010BDC8 /* DHAnimationKit.h */,
+				54F4A86A1FDFE7A40010BDC8 /* Info.plist */,
+				54F4A64E1FDFE5450010BDC8 /* Source */,
+				54F4A6351FDFE1940010BDC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54F4A6351FDFE1940010BDC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6341FDFE1940010BDC8 /* DHAnimationKit.framework */,
+				54F4A63D1FDFE1940010BDC8 /* DHAnimationKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54F4A64E1FDFE5450010BDC8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A64F1FDFE5450010BDC8 /* Animations */,
+				54F4A7431FDFE5450010BDC8 /* Infrastructure */,
+			);
+			name = Source;
+			path = Classes/Source;
+			sourceTree = "<group>";
+		};
+		54F4A64F1FDFE5450010BDC8 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6501FDFE5450010BDC8 /* ObjectAnimations */,
+				54F4A6BA1FDFE5450010BDC8 /* Special Effects */,
+				54F4A6DA1FDFE5450010BDC8 /* Text Effects */,
+				54F4A6FB1FDFE5450010BDC8 /* Transitions */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		54F4A6501FDFE5450010BDC8 /* ObjectAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6511FDFE5450010BDC8 /* Anvil */,
+				54F4A6541FDFE5450010BDC8 /* Blinds */,
+				54F4A6571FDFE5450010BDC8 /* Blow */,
+				54F4A65C1FDFE5450010BDC8 /* Blur */,
+				54F4A65F1FDFE5450010BDC8 /* Compress */,
+				54F4A6621FDFE5450010BDC8 /* Confetti */,
+				54F4A6651FDFE5450010BDC8 /* Crumble */,
+				54F4A6721FDFE5450010BDC8 /* Diffuse */,
+				54F4A6771FDFE5450010BDC8 /* Dissolve */,
+				54F4A67A1FDFE5450010BDC8 /* Drop */,
+				54F4A67D1FDFE5450010BDC8 /* FaceExplosion */,
+				54F4A6801FDFE5450010BDC8 /* Firework */,
+				54F4A6831FDFE5450010BDC8 /* Flame */,
+				54F4A6861FDFE5450010BDC8 /* Fold */,
+				54F4A68B1FDFE5450010BDC8 /* Pivot */,
+				54F4A68E1FDFE5450010BDC8 /* PointExplosion */,
+				54F4A6911FDFE5450010BDC8 /* Pop */,
+				54F4A6941FDFE5450010BDC8 /* Rotation */,
+				54F4A6971FDFE5450010BDC8 /* Scale */,
+				54F4A69A1FDFE5450010BDC8 /* Scale Big */,
+				54F4A69D1FDFE5450010BDC8 /* Shimmer */,
+				54F4A6A21FDFE5450010BDC8 /* Shredder */,
+				54F4A6AB1FDFE5450010BDC8 /* Skid */,
+				54F4A6AE1FDFE5450010BDC8 /* Sparkle */,
+				54F4A6B11FDFE5450010BDC8 /* Spin */,
+				54F4A6B41FDFE5450010BDC8 /* Twirl */,
+				54F4A6B71FDFE5450010BDC8 /* Wipe */,
+			);
+			path = ObjectAnimations;
+			sourceTree = "<group>";
+		};
+		54F4A6511FDFE5450010BDC8 /* Anvil */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6521FDFE5450010BDC8 /* DHAnvilAnimationRenderer.h */,
+				54F4A6531FDFE5450010BDC8 /* DHAnvilAnimationRenderer.m */,
+			);
+			path = Anvil;
+			sourceTree = "<group>";
+		};
+		54F4A6541FDFE5450010BDC8 /* Blinds */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6551FDFE5450010BDC8 /* DHBlindsAnimationRenderer.h */,
+				54F4A6561FDFE5450010BDC8 /* DHBlindsAnimationRenderer.m */,
+			);
+			path = Blinds;
+			sourceTree = "<group>";
+		};
+		54F4A6571FDFE5450010BDC8 /* Blow */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6581FDFE5450010BDC8 /* DHBlowAnimationRenderer.h */,
+				54F4A6591FDFE5450010BDC8 /* DHBlowAnimationRenderer.m */,
+				54F4A65A1FDFE5450010BDC8 /* DHBlowSceneMesh.h */,
+				54F4A65B1FDFE5450010BDC8 /* DHBlowSceneMesh.m */,
+			);
+			path = Blow;
+			sourceTree = "<group>";
+		};
+		54F4A65C1FDFE5450010BDC8 /* Blur */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A65D1FDFE5450010BDC8 /* DHBlurAnimationRenderer.h */,
+				54F4A65E1FDFE5450010BDC8 /* DHBlurAnimationRenderer.m */,
+			);
+			path = Blur;
+			sourceTree = "<group>";
+		};
+		54F4A65F1FDFE5450010BDC8 /* Compress */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6601FDFE5450010BDC8 /* DHCompressAnimationRenderer.h */,
+				54F4A6611FDFE5450010BDC8 /* DHCompressAnimationRenderer.m */,
+			);
+			path = Compress;
+			sourceTree = "<group>";
+		};
+		54F4A6621FDFE5450010BDC8 /* Confetti */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6631FDFE5450010BDC8 /* DHConfettiAnimationRenderer.h */,
+				54F4A6641FDFE5450010BDC8 /* DHConfettiAnimationRenderer.m */,
+			);
+			path = Confetti;
+			sourceTree = "<group>";
+		};
+		54F4A6651FDFE5450010BDC8 /* Crumble */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6661FDFE5450010BDC8 /* DHCrumbleAnimationRenderer.h */,
+				54F4A6671FDFE5450010BDC8 /* DHCrumbleAnimationRenderer.m */,
+				54F4A6681FDFE5450010BDC8 /* DHCrumbleMesh.h */,
+				54F4A6691FDFE5450010BDC8 /* DHCrumbleMesh.m */,
+				54F4A66A1FDFE5450010BDC8 /* DHEdge.h */,
+				54F4A66B1FDFE5450010BDC8 /* DHEdge.m */,
+				54F4A66C1FDFE5450010BDC8 /* DHIntersectPoint.h */,
+				54F4A66D1FDFE5450010BDC8 /* DHIntersectPoint.m */,
+				54F4A66E1FDFE5450010BDC8 /* DHLine.h */,
+				54F4A66F1FDFE5450010BDC8 /* DHLine.m */,
+				54F4A6701FDFE5450010BDC8 /* DHPolygon.h */,
+				54F4A6711FDFE5450010BDC8 /* DHPolygon.m */,
+			);
+			path = Crumble;
+			sourceTree = "<group>";
+		};
+		54F4A6721FDFE5450010BDC8 /* Diffuse */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6731FDFE5450010BDC8 /* DHDiffuseAnimationRenderer.h */,
+				54F4A6741FDFE5450010BDC8 /* DHDiffuseAnimationRenderer.m */,
+				54F4A6751FDFE5450010BDC8 /* DHDiffuseSceneMesh.h */,
+				54F4A6761FDFE5450010BDC8 /* DHDiffuseSceneMesh.m */,
+			);
+			path = Diffuse;
+			sourceTree = "<group>";
+		};
+		54F4A6771FDFE5450010BDC8 /* Dissolve */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6781FDFE5450010BDC8 /* DHDissolveAnimationRenderer.h */,
+				54F4A6791FDFE5450010BDC8 /* DHDissolveAnimationRenderer.m */,
+			);
+			path = Dissolve;
+			sourceTree = "<group>";
+		};
+		54F4A67A1FDFE5450010BDC8 /* Drop */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A67B1FDFE5450010BDC8 /* DHDropAnimationRenderer.h */,
+				54F4A67C1FDFE5450010BDC8 /* DHDropAnimationRenderer.m */,
+			);
+			path = Drop;
+			sourceTree = "<group>";
+		};
+		54F4A67D1FDFE5450010BDC8 /* FaceExplosion */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A67E1FDFE5450010BDC8 /* DHFaceExplosionAnimationRenderer.h */,
+				54F4A67F1FDFE5450010BDC8 /* DHFaceExplosionAnimationRenderer.m */,
+			);
+			path = FaceExplosion;
+			sourceTree = "<group>";
+		};
+		54F4A6801FDFE5450010BDC8 /* Firework */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6811FDFE5450010BDC8 /* DHFireworkAnimationRenderer.h */,
+				54F4A6821FDFE5450010BDC8 /* DHFireworkAnimationRenderer.m */,
+			);
+			path = Firework;
+			sourceTree = "<group>";
+		};
+		54F4A6831FDFE5450010BDC8 /* Flame */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6841FDFE5450010BDC8 /* DHFlameAnimationRenderer.h */,
+				54F4A6851FDFE5450010BDC8 /* DHFlameAnimationRenderer.m */,
+			);
+			path = Flame;
+			sourceTree = "<group>";
+		};
+		54F4A6861FDFE5450010BDC8 /* Fold */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6871FDFE5450010BDC8 /* DHFoldAnimationRenderer.h */,
+				54F4A6881FDFE5450010BDC8 /* DHFoldAnimationRenderer.m */,
+				54F4A6891FDFE5450010BDC8 /* DHFoldSceneMesh.h */,
+				54F4A68A1FDFE5450010BDC8 /* DHFoldSceneMesh.m */,
+			);
+			path = Fold;
+			sourceTree = "<group>";
+		};
+		54F4A68B1FDFE5450010BDC8 /* Pivot */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A68C1FDFE5450010BDC8 /* DHPivotAnimationRenderer.h */,
+				54F4A68D1FDFE5450010BDC8 /* DHPivotAnimationRenderer.m */,
+			);
+			path = Pivot;
+			sourceTree = "<group>";
+		};
+		54F4A68E1FDFE5450010BDC8 /* PointExplosion */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A68F1FDFE5450010BDC8 /* DHPointExplosionAnimationRenderer.h */,
+				54F4A6901FDFE5450010BDC8 /* DHPointExplosionAnimationRenderer.m */,
+			);
+			path = PointExplosion;
+			sourceTree = "<group>";
+		};
+		54F4A6911FDFE5450010BDC8 /* Pop */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6921FDFE5450010BDC8 /* DHPopAnimationRenderer.h */,
+				54F4A6931FDFE5450010BDC8 /* DHPopAnimationRenderer.m */,
+			);
+			path = Pop;
+			sourceTree = "<group>";
+		};
+		54F4A6941FDFE5450010BDC8 /* Rotation */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6951FDFE5450010BDC8 /* DHRotationAnimationRenderer.h */,
+				54F4A6961FDFE5450010BDC8 /* DHRotationAnimationRenderer.m */,
+			);
+			path = Rotation;
+			sourceTree = "<group>";
+		};
+		54F4A6971FDFE5450010BDC8 /* Scale */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6981FDFE5450010BDC8 /* DHScaleAnimationRenderer.h */,
+				54F4A6991FDFE5450010BDC8 /* DHScaleAnimationRenderer.m */,
+			);
+			path = Scale;
+			sourceTree = "<group>";
+		};
+		54F4A69A1FDFE5450010BDC8 /* Scale Big */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A69B1FDFE5450010BDC8 /* DHScaleBigAnimationRenderer.h */,
+				54F4A69C1FDFE5450010BDC8 /* DHScaleBigAnimationRenderer.m */,
+			);
+			path = "Scale Big";
+			sourceTree = "<group>";
+		};
+		54F4A69D1FDFE5450010BDC8 /* Shimmer */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A69E1FDFE5450010BDC8 /* DHShimmerAnimationRenderer.h */,
+				54F4A69F1FDFE5450010BDC8 /* DHShimmerAnimationRenderer.m */,
+				54F4A6A01FDFE5450010BDC8 /* DHShimmerBackgroundMesh.h */,
+				54F4A6A11FDFE5450010BDC8 /* DHShimmerBackgroundMesh.m */,
+			);
+			path = Shimmer;
+			sourceTree = "<group>";
+		};
+		54F4A6A21FDFE5450010BDC8 /* Shredder */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6A31FDFE5450010BDC8 /* DHShredderAnimationRenderer.h */,
+				54F4A6A41FDFE5450010BDC8 /* DHShredderAnimationRenderer.m */,
+				54F4A6A51FDFE5450010BDC8 /* DHShredderAnimationSceneMesh.h */,
+				54F4A6A61FDFE5450010BDC8 /* DHShredderAnimationSceneMesh.m */,
+				54F4A6A71FDFE5450010BDC8 /* DHShredderConfettiMesh.h */,
+				54F4A6A81FDFE5450010BDC8 /* DHShredderConfettiMesh.m */,
+				54F4A6A91FDFE5450010BDC8 /* DHShredderMesh.h */,
+				54F4A6AA1FDFE5450010BDC8 /* DHShredderMesh.m */,
+			);
+			path = Shredder;
+			sourceTree = "<group>";
+		};
+		54F4A6AB1FDFE5450010BDC8 /* Skid */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6AC1FDFE5450010BDC8 /* DHSkidAnimationRenderer.h */,
+				54F4A6AD1FDFE5450010BDC8 /* DHSkidAnimationRenderer.m */,
+			);
+			path = Skid;
+			sourceTree = "<group>";
+		};
+		54F4A6AE1FDFE5450010BDC8 /* Sparkle */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6AF1FDFE5450010BDC8 /* DHSparkleAnimationRenderer.h */,
+				54F4A6B01FDFE5450010BDC8 /* DHSparkleAnimationRenderer.m */,
+			);
+			path = Sparkle;
+			sourceTree = "<group>";
+		};
+		54F4A6B11FDFE5450010BDC8 /* Spin */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6B21FDFE5450010BDC8 /* DHSpinAnimationRenderer.h */,
+				54F4A6B31FDFE5450010BDC8 /* DHSpinAnimationRenderer.m */,
+			);
+			path = Spin;
+			sourceTree = "<group>";
+		};
+		54F4A6B41FDFE5450010BDC8 /* Twirl */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6B51FDFE5450010BDC8 /* DHTwirlAnimationRenderer.h */,
+				54F4A6B61FDFE5450010BDC8 /* DHTwirlAnimationRenderer.m */,
+			);
+			path = Twirl;
+			sourceTree = "<group>";
+		};
+		54F4A6B71FDFE5450010BDC8 /* Wipe */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6B81FDFE5450010BDC8 /* DHWipeAnimationRenderer.h */,
+				54F4A6B91FDFE5450010BDC8 /* DHWipeAnimationRenderer.m */,
+			);
+			path = Wipe;
+			sourceTree = "<group>";
+		};
+		54F4A6BA1FDFE5450010BDC8 /* Special Effects */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6BB1FDFE5450010BDC8 /* CameraShake */,
+				54F4A6BE1FDFE5450010BDC8 /* Dust */,
+				54F4A6C11FDFE5450010BDC8 /* FaceExplosion */,
+				54F4A6C41FDFE5450010BDC8 /* Firework */,
+				54F4A6C91FDFE5450010BDC8 /* Flame */,
+				54F4A6CC1FDFE5450010BDC8 /* PointExplosion */,
+				54F4A6CF1FDFE5450010BDC8 /* Shadow */,
+				54F4A6D21FDFE5450010BDC8 /* Shimmer */,
+				54F4A6D71FDFE5450010BDC8 /* Sparkle */,
+			);
+			path = "Special Effects";
+			sourceTree = "<group>";
+		};
+		54F4A6BB1FDFE5450010BDC8 /* CameraShake */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6BC1FDFE5450010BDC8 /* DHCameraShakeEffect.h */,
+				54F4A6BD1FDFE5450010BDC8 /* DHCameraShakeEffect.m */,
+			);
+			path = CameraShake;
+			sourceTree = "<group>";
+		};
+		54F4A6BE1FDFE5450010BDC8 /* Dust */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6BF1FDFE5450010BDC8 /* DHDustEffect.h */,
+				54F4A6C01FDFE5450010BDC8 /* DHDustEffect.m */,
+			);
+			path = Dust;
+			sourceTree = "<group>";
+		};
+		54F4A6C11FDFE5450010BDC8 /* FaceExplosion */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6C21FDFE5450010BDC8 /* DHFaceExplosionEffect.h */,
+				54F4A6C31FDFE5450010BDC8 /* DHFaceExplosionEffect.m */,
+			);
+			path = FaceExplosion;
+			sourceTree = "<group>";
+		};
+		54F4A6C41FDFE5450010BDC8 /* Firework */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6C51FDFE5450010BDC8 /* DHFireworkEffect.h */,
+				54F4A6C61FDFE5450010BDC8 /* DHFireworkEffect.m */,
+				54F4A6C71FDFE5450010BDC8 /* DHFireworkSettings.h */,
+				54F4A6C81FDFE5450010BDC8 /* DHFireworkSettings.m */,
+			);
+			path = Firework;
+			sourceTree = "<group>";
+		};
+		54F4A6C91FDFE5450010BDC8 /* Flame */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6CA1FDFE5450010BDC8 /* DHFlameEffect.h */,
+				54F4A6CB1FDFE5450010BDC8 /* DHFlameEffect.m */,
+			);
+			path = Flame;
+			sourceTree = "<group>";
+		};
+		54F4A6CC1FDFE5450010BDC8 /* PointExplosion */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6CD1FDFE5450010BDC8 /* DHPointExplosionEffect.h */,
+				54F4A6CE1FDFE5450010BDC8 /* DHPointExplosionEffect.m */,
+			);
+			path = PointExplosion;
+			sourceTree = "<group>";
+		};
+		54F4A6CF1FDFE5450010BDC8 /* Shadow */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6D01FDFE5450010BDC8 /* DHShadowRenderer.h */,
+				54F4A6D11FDFE5450010BDC8 /* DHShadowRenderer.m */,
+			);
+			path = Shadow;
+			sourceTree = "<group>";
+		};
+		54F4A6D21FDFE5450010BDC8 /* Shimmer */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6D31FDFE5450010BDC8 /* DHShimmerParticleEffect.h */,
+				54F4A6D41FDFE5450010BDC8 /* DHShimmerParticleEffect.m */,
+				54F4A6D51FDFE5450010BDC8 /* DHShiningStarEffect.h */,
+				54F4A6D61FDFE5450010BDC8 /* DHShiningStarEffect.m */,
+			);
+			path = Shimmer;
+			sourceTree = "<group>";
+		};
+		54F4A6D71FDFE5450010BDC8 /* Sparkle */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6D81FDFE5450010BDC8 /* DHSparkleEffect.h */,
+				54F4A6D91FDFE5450010BDC8 /* DHSparkleEffect.m */,
+			);
+			path = Sparkle;
+			sourceTree = "<group>";
+		};
+		54F4A6DA1FDFE5450010BDC8 /* Text Effects */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6DB1FDFE5450010BDC8 /* Dance */,
+				54F4A6E01FDFE5450010BDC8 /* Fade */,
+				54F4A6E51FDFE5450010BDC8 /* FlyIn */,
+				54F4A6EA1FDFE5450010BDC8 /* Orbital */,
+				54F4A6EF1FDFE5450010BDC8 /* Squish */,
+				54F4A6F41FDFE5450010BDC8 /* Trace */,
+			);
+			path = "Text Effects";
+			sourceTree = "<group>";
+		};
+		54F4A6DB1FDFE5450010BDC8 /* Dance */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6DC1FDFE5450010BDC8 /* DHTextDanceAnimationRenderer.h */,
+				54F4A6DD1FDFE5450010BDC8 /* DHTextDanceAnimationRenderer.m */,
+				54F4A6DE1FDFE5450010BDC8 /* DHTextDanceMesh.h */,
+				54F4A6DF1FDFE5450010BDC8 /* DHTextDanceMesh.m */,
+			);
+			path = Dance;
+			sourceTree = "<group>";
+		};
+		54F4A6E01FDFE5450010BDC8 /* Fade */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6E11FDFE5450010BDC8 /* DHTextFadeAnimationRenderer.h */,
+				54F4A6E21FDFE5450010BDC8 /* DHTextFadeAnimationRenderer.m */,
+				54F4A6E31FDFE5450010BDC8 /* DHTextFadeMesh.h */,
+				54F4A6E41FDFE5450010BDC8 /* DHTextFadeMesh.m */,
+			);
+			path = Fade;
+			sourceTree = "<group>";
+		};
+		54F4A6E51FDFE5450010BDC8 /* FlyIn */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6E61FDFE5450010BDC8 /* DHTextFlyInAnimationRenderer.h */,
+				54F4A6E71FDFE5450010BDC8 /* DHTextFlyInAnimationRenderer.m */,
+				54F4A6E81FDFE5450010BDC8 /* DHTextFlyInMesh.h */,
+				54F4A6E91FDFE5450010BDC8 /* DHTextFlyInMesh.m */,
+			);
+			path = FlyIn;
+			sourceTree = "<group>";
+		};
+		54F4A6EA1FDFE5450010BDC8 /* Orbital */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6EB1FDFE5450010BDC8 /* DHTextOrbitalAnimationRenderer.h */,
+				54F4A6EC1FDFE5450010BDC8 /* DHTextOrbitalAnimationRenderer.m */,
+				54F4A6ED1FDFE5450010BDC8 /* DHTextOrbitalMesh.h */,
+				54F4A6EE1FDFE5450010BDC8 /* DHTextOrbitalMesh.m */,
+			);
+			path = Orbital;
+			sourceTree = "<group>";
+		};
+		54F4A6EF1FDFE5450010BDC8 /* Squish */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6F01FDFE5450010BDC8 /* DHTextSquishAnimationRenderer.h */,
+				54F4A6F11FDFE5450010BDC8 /* DHTextSquishAnimationRenderer.m */,
+				54F4A6F21FDFE5450010BDC8 /* DHTextSquishMesh.h */,
+				54F4A6F31FDFE5450010BDC8 /* DHTextSquishMesh.m */,
+			);
+			path = Squish;
+			sourceTree = "<group>";
+		};
+		54F4A6F41FDFE5450010BDC8 /* Trace */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6F51FDFE5450010BDC8 /* DHTextTraceAnimationRenderer.h */,
+				54F4A6F61FDFE5450010BDC8 /* DHTextTraceAnimationRenderer.m */,
+				54F4A6F71FDFE5450010BDC8 /* DHTextTraceTextMesh.h */,
+				54F4A6F81FDFE5450010BDC8 /* DHTextTraceTextMesh.m */,
+				54F4A6F91FDFE5450010BDC8 /* DHTextTraceTraceMesh.h */,
+				54F4A6FA1FDFE5450010BDC8 /* DHTextTraceTraceMesh.m */,
+			);
+			path = Trace;
+			sourceTree = "<group>";
+		};
+		54F4A6FB1FDFE5450010BDC8 /* Transitions */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6FC1FDFE5450010BDC8 /* ClothLine */,
+				54F4A6FF1FDFE5450010BDC8 /* Confetti */,
+				54F4A7041FDFE5450010BDC8 /* Cover */,
+				54F4A7071FDFE5450010BDC8 /* Cube */,
+				54F4A7101FDFE5450010BDC8 /* DoorWay */,
+				54F4A7131FDFE5450010BDC8 /* Drop */,
+				54F4A7161FDFE5450010BDC8 /* Flip */,
+				54F4A7191FDFE5450010BDC8 /* Flop */,
+				54F4A71C1FDFE5450010BDC8 /* Grid */,
+				54F4A71F1FDFE5450010BDC8 /* Mosaic */,
+				54F4A7261FDFE5450010BDC8 /* PageCurl */,
+				54F4A7291FDFE5450010BDC8 /* Push */,
+				54F4A72C1FDFE5450010BDC8 /* Reflection */,
+				54F4A72F1FDFE5450010BDC8 /* Resolving Door */,
+				54F4A7321FDFE5450010BDC8 /* Reveal */,
+				54F4A7351FDFE5450010BDC8 /* Ripple */,
+				54F4A7381FDFE5450010BDC8 /* RotateDismiss */,
+				54F4A73B1FDFE5450010BDC8 /* Switch */,
+				54F4A73E1FDFE5450010BDC8 /* Twist */,
+			);
+			path = Transitions;
+			sourceTree = "<group>";
+		};
+		54F4A6FC1FDFE5450010BDC8 /* ClothLine */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A6FD1FDFE5450010BDC8 /* DHClothLineTransitionRenderer.h */,
+				54F4A6FE1FDFE5450010BDC8 /* DHClothLineTransitionRenderer.m */,
+			);
+			path = ClothLine;
+			sourceTree = "<group>";
+		};
+		54F4A6FF1FDFE5450010BDC8 /* Confetti */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A7001FDFE5450010BDC8 /* DHConfettiSourceMesh.h */,
+				54F4A7011FDFE5450010BDC8 /* DHConfettiSourceMesh.m */,
+				54F4A7021FDFE5450010BDC8 /* DHConfettiTransitionRenderer.h */,
+				54F4A7031FDFE5450010BDC8 /* DHConfettiTransitionRenderer.m */,
+			);
+			path = Confetti;
+			sourceTree = "<group>";
+		};
+		54F4A7041FDFE5450010BDC8 /* Cover */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A7051FDFE5450010BDC8 /* DHCoverTransitionRenderer.h */,
+				54F4A7061FDFE5450010BDC8 /* DHCoverTransitionRenderer.m */,
+			);
+			path = Cover;
+			sourceTree = "<group>";
+		};
+		54F4A7071FDFE5450010BDC8 /* Cube */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A7081FDFE5450010BDC8 /* DHCubeDestinationMesh.h */,
+				54F4A7091FDFE5450010BDC8 /* DHCubeDestinationMesh.m */,
+				54F4A70A1FDFE5450010BDC8 /* DHCubeMesh.h */,
+				54F4A70B1FDFE5450010BDC8 /* DHCubeMesh.m */,
+				54F4A70C1FDFE5450010BDC8 /* DHCubeSourceMesh.h */,
+				54F4A70D1FDFE5450010BDC8 /* DHCubeSourceMesh.m */,
+				54F4A70E1FDFE5450010BDC8 /* DHCubeTransitionRenderer.h */,
+				54F4A70F1FDFE5450010BDC8 /* DHCubeTransitionRenderer.m */,
+			);
+			path = Cube;
+			sourceTree = "<group>";
+		};
+		54F4A7101FDFE5450010BDC8 /* DoorWay */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A7111FDFE5450010BDC8 /* DHDoorWayTransitionRenderer.h */,
+				54F4A7121FDFE5450010BDC8 /* DHDoorWayTransitionRenderer.m */,
+			);
+			path = DoorWay;
+			sourceTree = "<group>";
+		};
+		54F4A7131FDFE5450010BDC8 /* Drop */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A7141FDFE5450010BDC8 /* DHDropTransitionRenderer.h */,
+				54F4A7151FDFE5450010BDC8 /* DHDropTransitionRenderer.m */,
+			);
+			path = Drop;
+			sourceTree = "<group>";
+		};
+		54F4A7161FDFE5450010BDC8 /* Flip */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A7171FDFE5450010BDC8 /* DHFlipTransitionRenderer.h */,
+				54F4A7181FDFE5450010BDC8 /* DHFlipTransitionRenderer.m */,
+			);
+			path = Flip;
+			sourceTree = "<group>";
+		};
+		54F4A7191FDFE5450010BDC8 /* Flop */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A71A1FDFE5450010BDC8 /* DHFlopTransitionRenderer.h */,
+				54F4A71B1FDFE5450010BDC8 /* DHFlopTransitionRenderer.m */,
+			);
+			path = Flop;
+			sourceTree = "<group>";
+		};
+		54F4A71C1FDFE5450010BDC8 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A71D1FDFE5450010BDC8 /* DHGridTransitionRenderer.h */,
+				54F4A71E1FDFE5450010BDC8 /* DHGridTransitionRenderer.m */,
+			);
+			path = Grid;
+			sourceTree = "<group>";
+		};
+		54F4A71F1FDFE5450010BDC8 /* Mosaic */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A7201FDFE5450010BDC8 /* DHMosaicBackMesh.h */,
+				54F4A7211FDFE5450010BDC8 /* DHMosaicBackMesh.m */,
+				54F4A7221FDFE5450010BDC8 /* DHMosaicMesh.h */,
+				54F4A7231FDFE5450010BDC8 /* DHMosaicMesh.m */,
+				54F4A7241FDFE5450010BDC8 /* DHMosaicTransitionRenderer.h */,
+				54F4A7251FDFE5450010BDC8 /* DHMosaicTransitionRenderer.m */,
+			);
+			path = Mosaic;
+			sourceTree = "<group>";
+		};
+		54F4A7261FDFE5450010BDC8 /* PageCurl */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A7271FDFE5450010BDC8 /* DHPageCurlTransitionRenderer.h */,
+				54F4A7281FDFE5450010BDC8 /* DHPageCurlTransitionRenderer.m */,
+			);
+			path = PageCurl;
+			sourceTree = "<group>";
+		};
+		54F4A7291FDFE5450010BDC8 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A72A1FDFE5450010BDC8 /* DHPushTransitionRenderer.h */,
+				54F4A72B1FDFE5450010BDC8 /* DHPushTransitionRenderer.m */,
+			);
+			path = Push;
+			sourceTree = "<group>";
+		};
+		54F4A72C1FDFE5450010BDC8 /* Reflection */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A72D1FDFE5450010BDC8 /* DHReflectionTransitionRenderer.h */,
+				54F4A72E1FDFE5450010BDC8 /* DHReflectionTransitionRenderer.m */,
+			);
+			path = Reflection;
+			sourceTree = "<group>";
+		};
+		54F4A72F1FDFE5450010BDC8 /* Resolving Door */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A7301FDFE5450010BDC8 /* DHResolvingDoorTransitionRenderer.h */,
+				54F4A7311FDFE5450010BDC8 /* DHResolvingDoorTransitionRenderer.m */,
+			);
+			path = "Resolving Door";
+			sourceTree = "<group>";
+		};
+		54F4A7321FDFE5450010BDC8 /* Reveal */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A7331FDFE5450010BDC8 /* DHRevealTransitionRenderer.h */,
+				54F4A7341FDFE5450010BDC8 /* DHRevealTransitionRenderer.m */,
+			);
+			path = Reveal;
+			sourceTree = "<group>";
+		};
+		54F4A7351FDFE5450010BDC8 /* Ripple */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A7361FDFE5450010BDC8 /* DHRippleTransitionRenderer.h */,
+				54F4A7371FDFE5450010BDC8 /* DHRippleTransitionRenderer.m */,
+			);
+			path = Ripple;
+			sourceTree = "<group>";
+		};
+		54F4A7381FDFE5450010BDC8 /* RotateDismiss */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A7391FDFE5450010BDC8 /* DHSpinDismissTransitionRenderer.h */,
+				54F4A73A1FDFE5450010BDC8 /* DHSpinDismissTransitionRenderer.m */,
+			);
+			path = RotateDismiss;
+			sourceTree = "<group>";
+		};
+		54F4A73B1FDFE5450010BDC8 /* Switch */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A73C1FDFE5450010BDC8 /* DHSwitchTransitionRenderer.h */,
+				54F4A73D1FDFE5450010BDC8 /* DHSwitchTransitionRenderer.m */,
+			);
+			path = Switch;
+			sourceTree = "<group>";
+		};
+		54F4A73E1FDFE5450010BDC8 /* Twist */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A73F1FDFE5450010BDC8 /* DHTwistMesh.h */,
+				54F4A7401FDFE5450010BDC8 /* DHTwistMesh.m */,
+				54F4A7411FDFE5450010BDC8 /* DHTwistTransitionRenderer.h */,
+				54F4A7421FDFE5450010BDC8 /* DHTwistTransitionRenderer.m */,
+			);
+			path = Twist;
+			sourceTree = "<group>";
+		};
+		54F4A7431FDFE5450010BDC8 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A7441FDFE5450010BDC8 /* DHConstants.h */,
+				54F4A7451FDFE5450010BDC8 /* DHConstants.m */,
+				54F4A7461FDFE5450010BDC8 /* DHObjectAnimationSettings.h */,
+				54F4A7471FDFE5450010BDC8 /* DHObjectAnimationSettings.m */,
+				54F4A7481FDFE5450010BDC8 /* DHTextAnimationSettings.h */,
+				54F4A7491FDFE5450010BDC8 /* DHTextAnimationSettings.m */,
+				54F4A74A1FDFE5450010BDC8 /* DHTransitionSettings.h */,
+				54F4A74B1FDFE5450010BDC8 /* DHTransitionSettings.m */,
+				54F4A74C1FDFE5450010BDC8 /* Meshes */,
+				54F4A7591FDFE5450010BDC8 /* OpenGL Helpers */,
+				54F4A75E1FDFE5450010BDC8 /* Renderers */,
+				54F4A7671FDFE5450010BDC8 /* Timing Function Helpers */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		54F4A74C1FDFE5450010BDC8 /* Meshes */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A74D1FDFE5450010BDC8 /* DHConsecutiveTextureSceneMesh.h */,
+				54F4A74E1FDFE5450010BDC8 /* DHConsecutiveTextureSceneMesh.m */,
+				54F4A74F1FDFE5450010BDC8 /* DHParticleEffect.h */,
+				54F4A7501FDFE5450010BDC8 /* DHParticleEffect.m */,
+				54F4A7511FDFE5450010BDC8 /* DHSceneMesh.h */,
+				54F4A7521FDFE5450010BDC8 /* DHSceneMesh.m */,
+				54F4A7531FDFE5450010BDC8 /* DHSceneMeshFactory.h */,
+				54F4A7541FDFE5450010BDC8 /* DHSceneMeshFactory.m */,
+				54F4A7551FDFE5450010BDC8 /* DHSplitTextureSceneMesh.h */,
+				54F4A7561FDFE5450010BDC8 /* DHSplitTextureSceneMesh.m */,
+				54F4A7571FDFE5450010BDC8 /* DHTextSceneMesh.h */,
+				54F4A7581FDFE5450010BDC8 /* DHTextSceneMesh.m */,
+			);
+			path = Meshes;
+			sourceTree = "<group>";
+		};
+		54F4A7591FDFE5450010BDC8 /* OpenGL Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A75A1FDFE5450010BDC8 /* OpenGLHelper.h */,
+				54F4A75B1FDFE5450010BDC8 /* OpenGLHelper.m */,
+				54F4A75C1FDFE5450010BDC8 /* TextureHelper.h */,
+				54F4A75D1FDFE5450010BDC8 /* TextureHelper.m */,
+			);
+			path = "OpenGL Helpers";
+			sourceTree = "<group>";
+		};
+		54F4A75E1FDFE5450010BDC8 /* Renderers */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A75F1FDFE5450010BDC8 /* DHBackgroundRenderer.h */,
+				54F4A7601FDFE5450010BDC8 /* DHBackgroundRenderer.m */,
+				54F4A7611FDFE5450010BDC8 /* DHObjectAnimationRenderer.h */,
+				54F4A7621FDFE5450010BDC8 /* DHObjectAnimationRenderer.m */,
+				54F4A7631FDFE5450010BDC8 /* DHTextEffectRenderer.h */,
+				54F4A7641FDFE5450010BDC8 /* DHTextEffectRenderer.m */,
+				54F4A7651FDFE5450010BDC8 /* DHTransitionRenderer.h */,
+				54F4A7661FDFE5450010BDC8 /* DHTransitionRenderer.m */,
+			);
+			path = Renderers;
+			sourceTree = "<group>";
+		};
+		54F4A7671FDFE5450010BDC8 /* Timing Function Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				54F4A7681FDFE5450010BDC8 /* DHTimingFunctionHelper.h */,
+				54F4A7691FDFE5450010BDC8 /* DHTimingFunctionHelper.m */,
+				54F4A76A1FDFE5450010BDC8 /* NSBKeyframeAnimationFunctions.c */,
+				54F4A76B1FDFE5450010BDC8 /* NSBKeyframeAnimationFunctions.h */,
+			);
+			path = "Timing Function Helpers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		54F4A6311FDFE1940010BDC8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F4A7C61FDFE5450010BDC8 /* DHPointExplosionEffect.h in Headers */,
+				54F4A82C1FDFE5450010BDC8 /* DHSceneMeshFactory.h in Headers */,
+				54F4A7A21FDFE5450010BDC8 /* DHScaleBigAnimationRenderer.h in Headers */,
+				54F4A7CC1FDFE5450010BDC8 /* DHShiningStarEffect.h in Headers */,
+				54F4A79E1FDFE5450010BDC8 /* DHRotationAnimationRenderer.h in Headers */,
+				54F4A7DE1FDFE5450010BDC8 /* DHTextOrbitalMesh.h in Headers */,
+				54F4A8221FDFE5450010BDC8 /* DHTextAnimationSettings.h in Headers */,
+				54F4A7FE1FDFE5450010BDC8 /* DHFlipTransitionRenderer.h in Headers */,
+				54F4A7C81FDFE5450010BDC8 /* DHShadowRenderer.h in Headers */,
+				54F4A7F81FDFE5450010BDC8 /* DHCubeTransitionRenderer.h in Headers */,
+				54F4A7801FDFE5450010BDC8 /* DHIntersectPoint.h in Headers */,
+				54F4A8141FDFE5450010BDC8 /* DHRippleTransitionRenderer.h in Headers */,
+				54F4A7D61FDFE5450010BDC8 /* DHTextFadeMesh.h in Headers */,
+				54F4A7DA1FDFE5450010BDC8 /* DHTextFlyInMesh.h in Headers */,
+				54F4A7CE1FDFE5450010BDC8 /* DHSparkleEffect.h in Headers */,
+				54F4A7E81FDFE5450010BDC8 /* DHTextTraceTraceMesh.h in Headers */,
+				54F4A7861FDFE5450010BDC8 /* DHDiffuseAnimationRenderer.h in Headers */,
+				54F4A8301FDFE5450010BDC8 /* DHTextSceneMesh.h in Headers */,
+				54F4A7D41FDFE5450010BDC8 /* DHTextFadeAnimationRenderer.h in Headers */,
+				54F4A81E1FDFE5450010BDC8 /* DHConstants.h in Headers */,
+				54F4A8121FDFE5450010BDC8 /* DHRevealTransitionRenderer.h in Headers */,
+				54F4A7981FDFE5450010BDC8 /* DHPivotAnimationRenderer.h in Headers */,
+				54F4A7F01FDFE5450010BDC8 /* DHCoverTransitionRenderer.h in Headers */,
+				54F4A7761FDFE5450010BDC8 /* DHCompressAnimationRenderer.h in Headers */,
+				54F4A7701FDFE5450010BDC8 /* DHBlowAnimationRenderer.h in Headers */,
+				54F4A83A1FDFE5450010BDC8 /* DHTextEffectRenderer.h in Headers */,
+				54F4A7B61FDFE5450010BDC8 /* DHTwirlAnimationRenderer.h in Headers */,
+				54F4A7B21FDFE5450010BDC8 /* DHSparkleAnimationRenderer.h in Headers */,
+				54F4A8161FDFE5450010BDC8 /* DHSpinDismissTransitionRenderer.h in Headers */,
+				54F4A81C1FDFE5450010BDC8 /* DHTwistTransitionRenderer.h in Headers */,
+				54F4A7EC1FDFE5450010BDC8 /* DHConfettiSourceMesh.h in Headers */,
+				54F4A7FC1FDFE5450010BDC8 /* DHDropTransitionRenderer.h in Headers */,
+				54F4A7A81FDFE5450010BDC8 /* DHShredderAnimationRenderer.h in Headers */,
+				54F4A8041FDFE5450010BDC8 /* DHMosaicBackMesh.h in Headers */,
+				54F4A7F61FDFE5450010BDC8 /* DHCubeSourceMesh.h in Headers */,
+				54F4A7781FDFE5450010BDC8 /* DHConfettiAnimationRenderer.h in Headers */,
+				54F4A7E61FDFE5450010BDC8 /* DHTextTraceTextMesh.h in Headers */,
+				54F4A81A1FDFE5450010BDC8 /* DHTwistMesh.h in Headers */,
+				54F4A8361FDFE5450010BDC8 /* DHBackgroundRenderer.h in Headers */,
+				54F4A7B01FDFE5450010BDC8 /* DHSkidAnimationRenderer.h in Headers */,
+				54F4A7E01FDFE5450010BDC8 /* DHTextSquishAnimationRenderer.h in Headers */,
+				54F4A7B41FDFE5450010BDC8 /* DHSpinAnimationRenderer.h in Headers */,
+				54F4A83C1FDFE5450010BDC8 /* DHTransitionRenderer.h in Headers */,
+				54F4A7741FDFE5450010BDC8 /* DHBlurAnimationRenderer.h in Headers */,
+				54F4A79A1FDFE5450010BDC8 /* DHPointExplosionAnimationRenderer.h in Headers */,
+				54F4A8101FDFE5450010BDC8 /* DHResolvingDoorTransitionRenderer.h in Headers */,
+				54F4A76E1FDFE5450010BDC8 /* DHBlindsAnimationRenderer.h in Headers */,
+				54F4A7B81FDFE5450010BDC8 /* DHWipeAnimationRenderer.h in Headers */,
+				54F4A7AA1FDFE5450010BDC8 /* DHShredderAnimationSceneMesh.h in Headers */,
+				54F4A7721FDFE5450010BDC8 /* DHBlowSceneMesh.h in Headers */,
+				54F4A80A1FDFE5450010BDC8 /* DHPageCurlTransitionRenderer.h in Headers */,
+				54F4A8001FDFE5450010BDC8 /* DHFlopTransitionRenderer.h in Headers */,
+				54F4A8261FDFE5450010BDC8 /* DHConsecutiveTextureSceneMesh.h in Headers */,
+				54F4A76C1FDFE5450010BDC8 /* DHAnvilAnimationRenderer.h in Headers */,
+				54F4A8061FDFE5450010BDC8 /* DHMosaicMesh.h in Headers */,
+				54F4A7C21FDFE5450010BDC8 /* DHFireworkSettings.h in Headers */,
+				54F4A8321FDFE5450010BDC8 /* OpenGLHelper.h in Headers */,
+				54F4A7C01FDFE5450010BDC8 /* DHFireworkEffect.h in Headers */,
+				54F4A8021FDFE5450010BDC8 /* DHGridTransitionRenderer.h in Headers */,
+				54F4A7901FDFE5450010BDC8 /* DHFireworkAnimationRenderer.h in Headers */,
+				54F4A7FA1FDFE5450010BDC8 /* DHDoorWayTransitionRenderer.h in Headers */,
+				54F4A7841FDFE5450010BDC8 /* DHPolygon.h in Headers */,
+				54F4A7961FDFE5450010BDC8 /* DHFoldSceneMesh.h in Headers */,
+				54F4A80C1FDFE5450010BDC8 /* DHPushTransitionRenderer.h in Headers */,
+				54F4A7AE1FDFE5450010BDC8 /* DHShredderMesh.h in Headers */,
+				54F4A8081FDFE5450010BDC8 /* DHMosaicTransitionRenderer.h in Headers */,
+				54F4A83E1FDFE5450010BDC8 /* DHTimingFunctionHelper.h in Headers */,
+				54F4A7F41FDFE5450010BDC8 /* DHCubeMesh.h in Headers */,
+				54F4A7EA1FDFE5450010BDC8 /* DHClothLineTransitionRenderer.h in Headers */,
+				54F4A8201FDFE5450010BDC8 /* DHObjectAnimationSettings.h in Headers */,
+				54F4A79C1FDFE5450010BDC8 /* DHPopAnimationRenderer.h in Headers */,
+				54F4A7BA1FDFE5450010BDC8 /* DHCameraShakeEffect.h in Headers */,
+				54F4A78C1FDFE5450010BDC8 /* DHDropAnimationRenderer.h in Headers */,
+				54F4A8411FDFE5450010BDC8 /* NSBKeyframeAnimationFunctions.h in Headers */,
+				54F4A77E1FDFE5450010BDC8 /* DHEdge.h in Headers */,
+				54F4A77C1FDFE5450010BDC8 /* DHCrumbleMesh.h in Headers */,
+				54F4A8281FDFE5450010BDC8 /* DHParticleEffect.h in Headers */,
+				54F4A7CA1FDFE5450010BDC8 /* DHShimmerParticleEffect.h in Headers */,
+				54F4A8181FDFE5450010BDC8 /* DHSwitchTransitionRenderer.h in Headers */,
+				54F4A7AC1FDFE5450010BDC8 /* DHShredderConfettiMesh.h in Headers */,
+				54F4A8341FDFE5450010BDC8 /* TextureHelper.h in Headers */,
+				54F4A7941FDFE5450010BDC8 /* DHFoldAnimationRenderer.h in Headers */,
+				54F4A86D1FDFE7A40010BDC8 /* DHAnimationKit.h in Headers */,
+				54F4A7D01FDFE5450010BDC8 /* DHTextDanceAnimationRenderer.h in Headers */,
+				54F4A82A1FDFE5450010BDC8 /* DHSceneMesh.h in Headers */,
+				54F4A80E1FDFE5450010BDC8 /* DHReflectionTransitionRenderer.h in Headers */,
+				54F4A7BC1FDFE5450010BDC8 /* DHDustEffect.h in Headers */,
+				54F4A7D21FDFE5450010BDC8 /* DHTextDanceMesh.h in Headers */,
+				54F4A7C41FDFE5450010BDC8 /* DHFlameEffect.h in Headers */,
+				54F4A7E21FDFE5450010BDC8 /* DHTextSquishMesh.h in Headers */,
+				54F4A8381FDFE5450010BDC8 /* DHObjectAnimationRenderer.h in Headers */,
+				54F4A7EE1FDFE5450010BDC8 /* DHConfettiTransitionRenderer.h in Headers */,
+				54F4A7A61FDFE5450010BDC8 /* DHShimmerBackgroundMesh.h in Headers */,
+				54F4A7821FDFE5450010BDC8 /* DHLine.h in Headers */,
+				54F4A7BE1FDFE5450010BDC8 /* DHFaceExplosionEffect.h in Headers */,
+				54F4A7A01FDFE5450010BDC8 /* DHScaleAnimationRenderer.h in Headers */,
+				54F4A7881FDFE5450010BDC8 /* DHDiffuseSceneMesh.h in Headers */,
+				54F4A7921FDFE5450010BDC8 /* DHFlameAnimationRenderer.h in Headers */,
+				54F4A7DC1FDFE5450010BDC8 /* DHTextOrbitalAnimationRenderer.h in Headers */,
+				54F4A8241FDFE5450010BDC8 /* DHTransitionSettings.h in Headers */,
+				54F4A77A1FDFE5450010BDC8 /* DHCrumbleAnimationRenderer.h in Headers */,
+				54F4A7A41FDFE5450010BDC8 /* DHShimmerAnimationRenderer.h in Headers */,
+				54F4A78A1FDFE5450010BDC8 /* DHDissolveAnimationRenderer.h in Headers */,
+				54F4A78E1FDFE5450010BDC8 /* DHFaceExplosionAnimationRenderer.h in Headers */,
+				54F4A7E41FDFE5450010BDC8 /* DHTextTraceAnimationRenderer.h in Headers */,
+				54F4A7D81FDFE5450010BDC8 /* DHTextFlyInAnimationRenderer.h in Headers */,
+				54F4A7F21FDFE5450010BDC8 /* DHCubeDestinationMesh.h in Headers */,
+				54F4A82E1FDFE5450010BDC8 /* DHSplitTextureSceneMesh.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		54F4A6331FDFE1940010BDC8 /* DHAnimationKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F4A6481FDFE1940010BDC8 /* Build configuration list for PBXNativeTarget "DHAnimationKit" */;
+			buildPhases = (
+				54F4A62F1FDFE1940010BDC8 /* Sources */,
+				54F4A6301FDFE1940010BDC8 /* Frameworks */,
+				54F4A6311FDFE1940010BDC8 /* Headers */,
+				54F4A6321FDFE1940010BDC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DHAnimationKit;
+			productName = DHAnimationKit;
+			productReference = 54F4A6341FDFE1940010BDC8 /* DHAnimationKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		54F4A63C1FDFE1940010BDC8 /* DHAnimationKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F4A64B1FDFE1940010BDC8 /* Build configuration list for PBXNativeTarget "DHAnimationKitTests" */;
+			buildPhases = (
+				54F4A6391FDFE1940010BDC8 /* Sources */,
+				54F4A63A1FDFE1940010BDC8 /* Frameworks */,
+				54F4A63B1FDFE1940010BDC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F4A6401FDFE1940010BDC8 /* PBXTargetDependency */,
+			);
+			name = DHAnimationKitTests;
+			productName = DHAnimationKitTests;
+			productReference = 54F4A63D1FDFE1940010BDC8 /* DHAnimationKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54F4A62B1FDFE1940010BDC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Huang Hongsen";
+				TargetAttributes = {
+					54F4A6331FDFE1940010BDC8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					54F4A63C1FDFE1940010BDC8 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 54F4A62E1FDFE1940010BDC8 /* Build configuration list for PBXProject "DHAnimationKit" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 54F4A62A1FDFE1940010BDC8;
+			productRefGroup = 54F4A6351FDFE1940010BDC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54F4A6331FDFE1940010BDC8 /* DHAnimationKit */,
+				54F4A63C1FDFE1940010BDC8 /* DHAnimationKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54F4A6321FDFE1940010BDC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F4A86C1FDFE7A40010BDC8 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F4A63B1FDFE1940010BDC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54F4A62F1FDFE1940010BDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F4A7B71FDFE5450010BDC8 /* DHTwirlAnimationRenderer.m in Sources */,
+				54F4A7711FDFE5450010BDC8 /* DHBlowAnimationRenderer.m in Sources */,
+				54F4A8311FDFE5450010BDC8 /* DHTextSceneMesh.m in Sources */,
+				54F4A7931FDFE5450010BDC8 /* DHFlameAnimationRenderer.m in Sources */,
+				54F4A7751FDFE5450010BDC8 /* DHBlurAnimationRenderer.m in Sources */,
+				54F4A7DD1FDFE5450010BDC8 /* DHTextOrbitalAnimationRenderer.m in Sources */,
+				54F4A7E11FDFE5450010BDC8 /* DHTextSquishAnimationRenderer.m in Sources */,
+				54F4A7DB1FDFE5450010BDC8 /* DHTextFlyInMesh.m in Sources */,
+				54F4A7871FDFE5450010BDC8 /* DHDiffuseAnimationRenderer.m in Sources */,
+				54F4A7ED1FDFE5450010BDC8 /* DHConfettiSourceMesh.m in Sources */,
+				54F4A8151FDFE5450010BDC8 /* DHRippleTransitionRenderer.m in Sources */,
+				54F4A79B1FDFE5450010BDC8 /* DHPointExplosionAnimationRenderer.m in Sources */,
+				54F4A81D1FDFE5450010BDC8 /* DHTwistTransitionRenderer.m in Sources */,
+				54F4A80D1FDFE5450010BDC8 /* DHPushTransitionRenderer.m in Sources */,
+				54F4A7D11FDFE5450010BDC8 /* DHTextDanceAnimationRenderer.m in Sources */,
+				54F4A8211FDFE5450010BDC8 /* DHObjectAnimationSettings.m in Sources */,
+				54F4A7CB1FDFE5450010BDC8 /* DHShimmerParticleEffect.m in Sources */,
+				54F4A8271FDFE5450010BDC8 /* DHConsecutiveTextureSceneMesh.m in Sources */,
+				54F4A7B51FDFE5450010BDC8 /* DHSpinAnimationRenderer.m in Sources */,
+				54F4A8251FDFE5450010BDC8 /* DHTransitionSettings.m in Sources */,
+				54F4A7E31FDFE5450010BDC8 /* DHTextSquishMesh.m in Sources */,
+				54F4A7D91FDFE5450010BDC8 /* DHTextFlyInAnimationRenderer.m in Sources */,
+				54F4A83D1FDFE5450010BDC8 /* DHTransitionRenderer.m in Sources */,
+				54F4A8131FDFE5450010BDC8 /* DHRevealTransitionRenderer.m in Sources */,
+				54F4A77F1FDFE5450010BDC8 /* DHEdge.m in Sources */,
+				54F4A7A71FDFE5450010BDC8 /* DHShimmerBackgroundMesh.m in Sources */,
+				54F4A78B1FDFE5450010BDC8 /* DHDissolveAnimationRenderer.m in Sources */,
+				54F4A7AD1FDFE5450010BDC8 /* DHShredderConfettiMesh.m in Sources */,
+				54F4A7CD1FDFE5450010BDC8 /* DHShiningStarEffect.m in Sources */,
+				54F4A7A51FDFE5450010BDC8 /* DHShimmerAnimationRenderer.m in Sources */,
+				54F4A76D1FDFE5450010BDC8 /* DHAnvilAnimationRenderer.m in Sources */,
+				54F4A7AF1FDFE5450010BDC8 /* DHShredderMesh.m in Sources */,
+				54F4A78F1FDFE5450010BDC8 /* DHFaceExplosionAnimationRenderer.m in Sources */,
+				54F4A79F1FDFE5450010BDC8 /* DHRotationAnimationRenderer.m in Sources */,
+				54F4A7D71FDFE5450010BDC8 /* DHTextFadeMesh.m in Sources */,
+				54F4A7DF1FDFE5450010BDC8 /* DHTextOrbitalMesh.m in Sources */,
+				54F4A81F1FDFE5450010BDC8 /* DHConstants.m in Sources */,
+				54F4A7A11FDFE5450010BDC8 /* DHScaleAnimationRenderer.m in Sources */,
+				54F4A82D1FDFE5450010BDC8 /* DHSceneMeshFactory.m in Sources */,
+				54F4A7951FDFE5450010BDC8 /* DHFoldAnimationRenderer.m in Sources */,
+				54F4A7EF1FDFE5450010BDC8 /* DHConfettiTransitionRenderer.m in Sources */,
+				54F4A7771FDFE5450010BDC8 /* DHCompressAnimationRenderer.m in Sources */,
+				54F4A7F51FDFE5450010BDC8 /* DHCubeMesh.m in Sources */,
+				54F4A7CF1FDFE5450010BDC8 /* DHSparkleEffect.m in Sources */,
+				54F4A8031FDFE5450010BDC8 /* DHGridTransitionRenderer.m in Sources */,
+				54F4A7F31FDFE5450010BDC8 /* DHCubeDestinationMesh.m in Sources */,
+				54F4A8171FDFE5450010BDC8 /* DHSpinDismissTransitionRenderer.m in Sources */,
+				54F4A7C11FDFE5450010BDC8 /* DHFireworkEffect.m in Sources */,
+				54F4A7F91FDFE5450010BDC8 /* DHCubeTransitionRenderer.m in Sources */,
+				54F4A8401FDFE5450010BDC8 /* NSBKeyframeAnimationFunctions.c in Sources */,
+				54F4A77B1FDFE5450010BDC8 /* DHCrumbleAnimationRenderer.m in Sources */,
+				54F4A82B1FDFE5450010BDC8 /* DHSceneMesh.m in Sources */,
+				54F4A7E91FDFE5450010BDC8 /* DHTextTraceTraceMesh.m in Sources */,
+				54F4A8091FDFE5450010BDC8 /* DHMosaicTransitionRenderer.m in Sources */,
+				54F4A78D1FDFE5450010BDC8 /* DHDropAnimationRenderer.m in Sources */,
+				54F4A7D51FDFE5450010BDC8 /* DHTextFadeAnimationRenderer.m in Sources */,
+				54F4A83B1FDFE5450010BDC8 /* DHTextEffectRenderer.m in Sources */,
+				54F4A80B1FDFE5450010BDC8 /* DHPageCurlTransitionRenderer.m in Sources */,
+				54F4A8231FDFE5450010BDC8 /* DHTextAnimationSettings.m in Sources */,
+				54F4A8371FDFE5450010BDC8 /* DHBackgroundRenderer.m in Sources */,
+				54F4A7E71FDFE5450010BDC8 /* DHTextTraceTextMesh.m in Sources */,
+				54F4A8391FDFE5450010BDC8 /* DHObjectAnimationRenderer.m in Sources */,
+				54F4A7AB1FDFE5450010BDC8 /* DHShredderAnimationSceneMesh.m in Sources */,
+				54F4A7B31FDFE5450010BDC8 /* DHSparkleAnimationRenderer.m in Sources */,
+				54F4A76F1FDFE5450010BDC8 /* DHBlindsAnimationRenderer.m in Sources */,
+				54F4A7C71FDFE5450010BDC8 /* DHPointExplosionEffect.m in Sources */,
+				54F4A7891FDFE5450010BDC8 /* DHDiffuseSceneMesh.m in Sources */,
+				54F4A7F11FDFE5450010BDC8 /* DHCoverTransitionRenderer.m in Sources */,
+				54F4A7731FDFE5450010BDC8 /* DHBlowSceneMesh.m in Sources */,
+				54F4A7EB1FDFE5450010BDC8 /* DHClothLineTransitionRenderer.m in Sources */,
+				54F4A7911FDFE5450010BDC8 /* DHFireworkAnimationRenderer.m in Sources */,
+				54F4A7B11FDFE5450010BDC8 /* DHSkidAnimationRenderer.m in Sources */,
+				54F4A77D1FDFE5450010BDC8 /* DHCrumbleMesh.m in Sources */,
+				54F4A7851FDFE5450010BDC8 /* DHPolygon.m in Sources */,
+				54F4A7BB1FDFE5450010BDC8 /* DHCameraShakeEffect.m in Sources */,
+				54F4A8051FDFE5450010BDC8 /* DHMosaicBackMesh.m in Sources */,
+				54F4A7BF1FDFE5450010BDC8 /* DHFaceExplosionEffect.m in Sources */,
+				54F4A7991FDFE5450010BDC8 /* DHPivotAnimationRenderer.m in Sources */,
+				54F4A7C51FDFE5450010BDC8 /* DHFlameEffect.m in Sources */,
+				54F4A7B91FDFE5450010BDC8 /* DHWipeAnimationRenderer.m in Sources */,
+				54F4A7971FDFE5450010BDC8 /* DHFoldSceneMesh.m in Sources */,
+				54F4A7FB1FDFE5450010BDC8 /* DHDoorWayTransitionRenderer.m in Sources */,
+				54F4A7811FDFE5450010BDC8 /* DHIntersectPoint.m in Sources */,
+				54F4A8331FDFE5450010BDC8 /* OpenGLHelper.m in Sources */,
+				54F4A83F1FDFE5450010BDC8 /* DHTimingFunctionHelper.m in Sources */,
+				54F4A8011FDFE5450010BDC8 /* DHFlopTransitionRenderer.m in Sources */,
+				54F4A8071FDFE5450010BDC8 /* DHMosaicMesh.m in Sources */,
+				54F4A7C91FDFE5450010BDC8 /* DHShadowRenderer.m in Sources */,
+				54F4A8291FDFE5450010BDC8 /* DHParticleEffect.m in Sources */,
+				54F4A7FF1FDFE5450010BDC8 /* DHFlipTransitionRenderer.m in Sources */,
+				54F4A8191FDFE5450010BDC8 /* DHSwitchTransitionRenderer.m in Sources */,
+				54F4A7791FDFE5450010BDC8 /* DHConfettiAnimationRenderer.m in Sources */,
+				54F4A82F1FDFE5450010BDC8 /* DHSplitTextureSceneMesh.m in Sources */,
+				54F4A7A31FDFE5450010BDC8 /* DHScaleBigAnimationRenderer.m in Sources */,
+				54F4A81B1FDFE5450010BDC8 /* DHTwistMesh.m in Sources */,
+				54F4A80F1FDFE5450010BDC8 /* DHReflectionTransitionRenderer.m in Sources */,
+				54F4A7831FDFE5450010BDC8 /* DHLine.m in Sources */,
+				54F4A7FD1FDFE5450010BDC8 /* DHDropTransitionRenderer.m in Sources */,
+				54F4A7BD1FDFE5450010BDC8 /* DHDustEffect.m in Sources */,
+				54F4A7C31FDFE5450010BDC8 /* DHFireworkSettings.m in Sources */,
+				54F4A7D31FDFE5450010BDC8 /* DHTextDanceMesh.m in Sources */,
+				54F4A8111FDFE5450010BDC8 /* DHResolvingDoorTransitionRenderer.m in Sources */,
+				54F4A7F71FDFE5450010BDC8 /* DHCubeSourceMesh.m in Sources */,
+				54F4A79D1FDFE5450010BDC8 /* DHPopAnimationRenderer.m in Sources */,
+				54F4A8351FDFE5450010BDC8 /* TextureHelper.m in Sources */,
+				54F4A7E51FDFE5450010BDC8 /* DHTextTraceAnimationRenderer.m in Sources */,
+				54F4A7A91FDFE5450010BDC8 /* DHShredderAnimationRenderer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F4A6391FDFE1940010BDC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54F4A6401FDFE1940010BDC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F4A6331FDFE1940010BDC8 /* DHAnimationKit */;
+			targetProxy = 54F4A63F1FDFE1940010BDC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		54F4A6461FDFE1940010BDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		54F4A6471FDFE1940010BDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		54F4A6491FDFE1940010BDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 69JC3H46Q9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Classes/Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.huanghongsen.DHAnimationKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54F4A64A1FDFE1940010BDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 69JC3H46Q9;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Classes/Source/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.huanghongsen.DHAnimationKit;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54F4A64C1FDFE1940010BDC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69JC3H46Q9;
+				INFOPLIST_FILE = DHAnimationKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.huanghongsen.DHAnimationKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54F4A64D1FDFE1940010BDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 69JC3H46Q9;
+				INFOPLIST_FILE = DHAnimationKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.huanghongsen.DHAnimationKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54F4A62E1FDFE1940010BDC8 /* Build configuration list for PBXProject "DHAnimationKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F4A6461FDFE1940010BDC8 /* Debug */,
+				54F4A6471FDFE1940010BDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F4A6481FDFE1940010BDC8 /* Build configuration list for PBXNativeTarget "DHAnimationKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F4A6491FDFE1940010BDC8 /* Debug */,
+				54F4A64A1FDFE1940010BDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F4A64B1FDFE1940010BDC8 /* Build configuration list for PBXNativeTarget "DHAnimationKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F4A64C1FDFE1940010BDC8 /* Debug */,
+				54F4A64D1FDFE1940010BDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54F4A62B1FDFE1940010BDC8 /* Project object */;
+}
