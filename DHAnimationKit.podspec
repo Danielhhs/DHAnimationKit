@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name         = "DHAnimationKit"
-  s.version      = "1.0.0"
-  s.summary      = "DHImageKit is a library that allows you to edit image easily"
-  s.description  = "DHImageKit is a image editing library based on GPUImage. Providing both the abliity to add a filter to whole image and the ability to edit single component of a image"
+  s.version      = "1.0.1"
+  s.summary      = "DHAnimationKit is a library that allows you to transit or show/hide views with beautiful animations"
+  s.description  = "DHAnimationKit is a library that allows you to add animations and transitions to views very easily. You can have the power of adding animations like in Keynotes very easily."
   s.homepage     = "https://github.com/Danielhhs/DHAnimationKit"
   s.license      = "MIT"
   s.author             = { "Daniel Huang" => "Danielhhs@163.com" }

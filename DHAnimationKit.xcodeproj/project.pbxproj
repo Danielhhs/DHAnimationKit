@@ -223,7 +223,7 @@
 		54F4A8401FDFE5450010BDC8 /* NSBKeyframeAnimationFunctions.c in Sources */ = {isa = PBXBuildFile; fileRef = 54F4A76A1FDFE5450010BDC8 /* NSBKeyframeAnimationFunctions.c */; };
 		54F4A8411FDFE5450010BDC8 /* NSBKeyframeAnimationFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A76B1FDFE5450010BDC8 /* NSBKeyframeAnimationFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54F4A86C1FDFE7A40010BDC8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 54F4A86A1FDFE7A40010BDC8 /* Info.plist */; };
-		54F4A86D1FDFE7A40010BDC8 /* DHAnimationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A86B1FDFE7A40010BDC8 /* DHAnimationKit.h */; };
+		54F4A86D1FDFE7A40010BDC8 /* DHAnimationKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F4A86B1FDFE7A40010BDC8 /* DHAnimationKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
